@@ -375,7 +375,7 @@
     "id": "science-teaching",
     "name": "تعليم العلوم",
     "faculty": "كلية التربية",
-    "track": ["علمي"],
+    "track": ["علمي", "أدبي"],
     "duration": "4 سنوات",
     "admission": [
       { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
@@ -834,7 +834,7 @@
     "id": "chemistry",
     "name": "الكيمياء",
     "faculty": "كلية العلوم",
-    "track": ["علمي"],
+    "track": ["علمي", "أدبي"],
     "duration": "4 سنوات",
     "admission": [
       { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
@@ -850,7 +850,7 @@
     "id": "physics",
     "name": "الفيزياء",
     "faculty": "كلية العلوم",
-    "track": ["علمي"],
+    "track": ["علمي", "أدبي"],
     "duration": "4 سنوات",
     "admission": [
       { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
@@ -866,7 +866,7 @@
     "id": "biology",
     "name": "الأحياء",
     "faculty": "كلية العلوم",
-    "track": ["علمي"],
+    "track": ["علمي", "أدبي"],
     "duration": "4 سنوات",
     "admission": [
       { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
@@ -882,7 +882,7 @@
     "id": "mathematics",
     "name": "الرياضيات",
     "faculty": "كلية العلوم",
-    "track": ["علمي"],
+    "track": ["علمي", "أدبي"],
     "duration": "4 سنوات",
     "admission": [
       { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
@@ -898,7 +898,7 @@
     "id": "earth-environmental-science",
     "name": "علوم الأرض والبيئة",
     "faculty": "كلية العلوم",
-    "track": ["علمي"],
+    "track": ["علمي", "أدبي"],
     "duration": "4 سنوات",
     "admission": [
       { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
@@ -913,7 +913,7 @@
     "id": "biochemistry",
     "name": "الكيمياء الحيوية",
     "faculty": "كلية العلوم",
-    "track": ["علمي"],
+    "track": ["علمي", "أدبي"],
     "duration": "4 سنوات",
     "admission": [
       { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
@@ -927,7 +927,7 @@
     "id": "biotechnology",
     "name": "التكنولوجيا الحيوية",
     "faculty": "كلية العلوم",
-    "track": ["علمي"],
+    "track": ["علمي", "أدبي"],
     "duration": "4 سنوات",
     "admission": [
       { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }

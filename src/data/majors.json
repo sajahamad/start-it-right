@@ -3,1340 +3,3755 @@
     "id": "medicine",
     "name": "الطب البشري",
     "faculty": "كلية الطب",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "6 سنوات + سنة امتياز",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 92, "competitiveGpa": 93, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 90, "competitiveGpa": 95, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 92,
+        "competitiveGpa": 93,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 90,
+        "competitiveGpa": 95,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حفظ وتذكر كميات كبيرة من المعلومات", "قدرة على التركيز لساعات طويلة", "لغة إنجليزية قوية", "تحمل ضغط نفسي"],
-    "skillsToLearnNow": ["تقوية اللغة الإنجليزية العلمية", "تعلم أساسيات التشريح من مصادر يوتيوب", "تنظيم وقت الدراسة اليومي"],
-    "careers": ["طبيب عام", "طبيب مقيم بعد التخصص", "باحث طبي", "طبيب في القطاع الصحي العام أو الخاص"],
-    "relatedMajors": ["pharmacy", "nursing", "dentistry"]
+    "skillsNeeded": [
+      "حفظ وتذكر كميات كبيرة من المعلومات",
+      "قدرة على التركيز لساعات طويلة",
+      "لغة إنجليزية قوية",
+      "تحمل ضغط نفسي"
+    ],
+    "skillsToLearnNow": [
+      "تقوية اللغة الإنجليزية العلمية",
+      "تعلم أساسيات التشريح من مصادر يوتيوب",
+      "تنظيم وقت الدراسة اليومي"
+    ],
+    "careers": [
+      "طبيب عام",
+      "طبيب مقيم بعد التخصص",
+      "باحث طبي",
+      "طبيب في القطاع الصحي العام أو الخاص"
+    ],
+    "relatedMajors": [
+      "pharmacy",
+      "nursing",
+      "dentistry"
+    ]
   },
   {
     "id": "pharmacy",
     "name": "الصيدلة",
     "faculty": "كلية الصيدلة",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "5 سنوات",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["دقة عالية بالتعامل مع الجرعات والأرقام", "حب الكيمياء والمختبرات", "أمانة ومسؤولية", "قدرة على الحفظ"],
-    "skillsToLearnNow": ["مراجعة الكيمياء العضوية من كتاب التوجيهي", "تعلم مصطلحات طبية إنجليزية أساسية"],
-    "careers": ["صيدلي في صيدلية خاصة", "صيدلي مستشفى", "مندوب علمي لشركة أدوية", "باحث في صناعة الدواء"],
-    "relatedMajors": ["medicine", "nursing", "pharmd"]
+    "skillsNeeded": [
+      "دقة عالية بالتعامل مع الجرعات والأرقام",
+      "حب الكيمياء والمختبرات",
+      "أمانة ومسؤولية",
+      "قدرة على الحفظ"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الكيمياء العضوية من كتاب التوجيهي",
+      "تعلم مصطلحات طبية إنجليزية أساسية"
+    ],
+    "careers": [
+      "صيدلي في صيدلية خاصة",
+      "صيدلي مستشفى",
+      "مندوب علمي لشركة أدوية",
+      "باحث في صناعة الدواء"
+    ],
+    "relatedMajors": [
+      "medicine",
+      "nursing",
+      "pharmd"
+    ]
   },
   {
     "id": "pharmd",
     "name": "دكتور صيدلي",
     "faculty": "كلية الصيدلة",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "6 سنوات",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 82, "competitiveGpa": 82, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 82,
+        "competitiveGpa": 82,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["دقة عالية بالتعامل مع الجرعات والأرقام", "مهارات تواصل سريري مع المرضى", "قدرة على الحفظ والتحليل السريري"],
-    "skillsToLearnNow": ["مراجعة الكيمياء العضوية والحيوية", "قراءة عن المسار السريري للصيدلة الإكلينيكية"],
-    "careers": ["صيدلي إكلينيكي بمستشفى", "استشاري أدوية", "باحث في العلاج الدوائي"],
-    "relatedMajors": ["pharmacy", "medicine"]
+    "skillsNeeded": [
+      "دقة عالية بالتعامل مع الجرعات والأرقام",
+      "مهارات تواصل سريري مع المرضى",
+      "قدرة على الحفظ والتحليل السريري"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الكيمياء العضوية والحيوية",
+      "قراءة عن المسار السريري للصيدلة الإكلينيكية"
+    ],
+    "careers": [
+      "صيدلي إكلينيكي بمستشفى",
+      "استشاري أدوية",
+      "باحث في العلاج الدوائي"
+    ],
+    "relatedMajors": [
+      "pharmacy",
+      "medicine"
+    ]
   },
   {
     "id": "nursing",
     "name": "التمريض",
     "faculty": "كلية العلوم الصحية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true, "feePerCreditHour": 15 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 70, "competitiveGpa": 80, "year": 2026, "verified": true },
-      { "university": "جامعة فلسطين", "minGpa": 70, "competitiveGpa": 80, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 15
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 70,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 70,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تعاطف وصبر مع المرضى", "لياقة بدنية لتحمل الدوامات الطويلة", "دقة بمتابعة العلامات الحيوية", "عمل ضمن فريق"],
-    "skillsToLearnNow": ["حضور دورة إسعافات أولية", "تقوية اللغة الإنجليزية الطبية"],
-    "careers": ["ممرض/ة في مستشفى", "ممرض/ة رعاية منزلية", "ممرض/ة في مراكز الرعاية الأولية"],
-    "relatedMajors": ["medicine", "pharmacy", "nursing-diploma"]
+    "skillsNeeded": [
+      "تعاطف وصبر مع المرضى",
+      "لياقة بدنية لتحمل الدوامات الطويلة",
+      "دقة بمتابعة العلامات الحيوية",
+      "عمل ضمن فريق"
+    ],
+    "skillsToLearnNow": [
+      "حضور دورة إسعافات أولية",
+      "تقوية اللغة الإنجليزية الطبية"
+    ],
+    "careers": [
+      "ممرض/ة في مستشفى",
+      "ممرض/ة رعاية منزلية",
+      "ممرض/ة في مراكز الرعاية الأولية"
+    ],
+    "relatedMajors": [
+      "medicine",
+      "pharmacy",
+      "nursing-diploma"
+    ]
   },
   {
     "id": "nursing-diploma",
     "name": "التمريض (دبلوم)",
     "faculty": "دبلوم متوسط",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "سنتين (دبلوم)",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 50, "competitiveGpa": 60, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 50,
+        "competitiveGpa": 60,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تعاطف وصبر مع المرضى", "دقة بمتابعة العلامات الحيوية"],
-    "skillsToLearnNow": ["حضور دورة إسعافات أولية"],
-    "careers": ["ممرض/ة مساعد بمستشفى أو مركز صحي", "استكمال بكالوريوس تمريض لاحقاً"],
-    "relatedMajors": ["nursing"]
+    "skillsNeeded": [
+      "تعاطف وصبر مع المرضى",
+      "دقة بمتابعة العلامات الحيوية"
+    ],
+    "skillsToLearnNow": [
+      "حضور دورة إسعافات أولية"
+    ],
+    "careers": [
+      "ممرض/ة مساعد بمستشفى أو مركز صحي",
+      "استكمال بكالوريوس تمريض لاحقاً"
+    ],
+    "relatedMajors": [
+      "nursing"
+    ]
   },
   {
     "id": "dentistry",
     "name": "طب الأسنان",
     "faculty": "كلية طب الأسنان",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "5 سنوات + سنة امتياز",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 85, "competitiveGpa": 85, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 85,
+        "competitiveGpa": 85,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["مهارة يدوية دقيقة", "قدرة على التركيز بالتفاصيل الصغيرة", "تعامل جيد ومريح مع المرضى", "صبر وأعصاب هادئة"],
-    "skillsToLearnNow": ["تمرين مهارات الرسم والدقة اليدوية", "تقوية اللغة الإنجليزية الطبية"],
-    "careers": ["طبيب أسنان عام", "أخصائي تقويم أسنان (بعد دراسات عليا)", "طبيب أسنان بعيادة خاصة"],
-    "relatedMajors": ["medicine", "pharmacy", "dental-technician"]
+    "skillsNeeded": [
+      "مهارة يدوية دقيقة",
+      "قدرة على التركيز بالتفاصيل الصغيرة",
+      "تعامل جيد ومريح مع المرضى",
+      "صبر وأعصاب هادئة"
+    ],
+    "skillsToLearnNow": [
+      "تمرين مهارات الرسم والدقة اليدوية",
+      "تقوية اللغة الإنجليزية الطبية"
+    ],
+    "careers": [
+      "طبيب أسنان عام",
+      "أخصائي تقويم أسنان (بعد دراسات عليا)",
+      "طبيب أسنان بعيادة خاصة"
+    ],
+    "relatedMajors": [
+      "medicine",
+      "pharmacy",
+      "dental-technician"
+    ]
   },
   {
     "id": "dental-technician",
     "name": "فني أسنان",
     "faculty": "كلية طب الأسنان",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "3 سنوات",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["مهارة يدوية ودقة بالتفاصيل", "صبر بالعمل المخبري الطويل"],
-    "skillsToLearnNow": ["تمرين مهارات النحت والتشكيل اليدوي"],
-    "careers": ["فني تركيب أسنان بمختبر أسنان", "مساعد فني بعيادات الأسنان"],
-    "relatedMajors": ["dentistry", "dental-assistant-diploma"]
+    "skillsNeeded": [
+      "مهارة يدوية ودقة بالتفاصيل",
+      "صبر بالعمل المخبري الطويل"
+    ],
+    "skillsToLearnNow": [
+      "تمرين مهارات النحت والتشكيل اليدوي"
+    ],
+    "careers": [
+      "فني تركيب أسنان بمختبر أسنان",
+      "مساعد فني بعيادات الأسنان"
+    ],
+    "relatedMajors": [
+      "dentistry",
+      "dental-assistant-diploma"
+    ]
   },
   {
     "id": "dental-assistant-diploma",
     "name": "مساعد طبيب أسنان",
     "faculty": "دبلوم متوسط",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "سنتين (دبلوم)",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 50, "competitiveGpa": 50, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 50,
+        "competitiveGpa": 50,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["دقة وتنظيم", "تعامل مريح مع المرضى"],
-    "skillsToLearnNow": ["التعرف على أدوات عيادة الأسنان الأساسية"],
-    "careers": ["مساعد طبيب أسنان بعيادة خاصة", "منسق استقبال بعيادة أسنان"],
-    "relatedMajors": ["dentistry", "dental-technician"]
+    "skillsNeeded": [
+      "دقة وتنظيم",
+      "تعامل مريح مع المرضى"
+    ],
+    "skillsToLearnNow": [
+      "التعرف على أدوات عيادة الأسنان الأساسية"
+    ],
+    "careers": [
+      "مساعد طبيب أسنان بعيادة خاصة",
+      "منسق استقبال بعيادة أسنان"
+    ],
+    "relatedMajors": [
+      "dentistry",
+      "dental-technician"
+    ]
   },
   {
     "id": "ai-engineering",
     "name": "هندسة الذكاء الاصطناعي",
     "faculty": "كلية هندسة البرمجيات والذكاء الاصطناعي",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس قوي بالرياضيات والمنطق", "تفكير تحليلي", "قدرة على البرمجة وحل المشكلات"],
-    "skillsToLearnNow": ["تعلم Python من مصدر مجاني", "أخذ مقدمة بسيطة عن الذكاء الاصطناعي وتعلم الآلة"],
-    "careers": ["مهندس تعلم آلة", "مطور حلول ذكاء اصطناعي", "محلل بيانات"],
-    "relatedMajors": ["computer-science", "computer-engineering", "software-engineering"]
+    "skillsNeeded": [
+      "أساس قوي بالرياضيات والمنطق",
+      "تفكير تحليلي",
+      "قدرة على البرمجة وحل المشكلات"
+    ],
+    "skillsToLearnNow": [
+      "تعلم Python من مصدر مجاني",
+      "أخذ مقدمة بسيطة عن الذكاء الاصطناعي وتعلم الآلة"
+    ],
+    "careers": [
+      "مهندس تعلم آلة",
+      "مطور حلول ذكاء اصطناعي",
+      "محلل بيانات"
+    ],
+    "relatedMajors": [
+      "computer-science",
+      "computer-engineering",
+      "software-engineering"
+    ]
   },
   {
     "id": "computer-engineering",
     "name": "هندسة الحاسوب",
     "faculty": "كلية الهندسة",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "5 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true },
-      { "university": "جامعة الأقصى", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true, "feePerCreditHour": 20 },
-      { "university": "جامعة الأزهر", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تفكير منطقي وحل مشكلات", "أساسيات رياضيات قوية", "صبر على تصحيح الأخطاء البرمجية"],
-    "skillsToLearnNow": ["تعلم لغة برمجة أساسية زي Python", "أخذ مقدمة بالإلكترونيات من مصادر مجانية"],
-    "careers": ["مهندس أنظمة مدمجة", "مهندس شبكات", "مطور أجهزة وبرمجيات"],
-    "relatedMajors": ["computer-science", "ai-engineering", "smart-systems-engineering"]
+    "skillsNeeded": [
+      "تفكير منطقي وحل مشكلات",
+      "أساسيات رياضيات قوية",
+      "صبر على تصحيح الأخطاء البرمجية"
+    ],
+    "skillsToLearnNow": [
+      "تعلم لغة برمجة أساسية زي Python",
+      "أخذ مقدمة بالإلكترونيات من مصادر مجانية"
+    ],
+    "careers": [
+      "مهندس أنظمة مدمجة",
+      "مهندس شبكات",
+      "مطور أجهزة وبرمجيات"
+    ],
+    "relatedMajors": [
+      "computer-science",
+      "ai-engineering",
+      "smart-systems-engineering"
+    ]
   },
   {
     "id": "computer-science",
     "name": "علم الحاسوب",
     "faculty": "كلية الحاسبات وتكنولوجيا المعلومات",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 12 },
-      { "university": "جامعة الأزهر", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 12
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تفكير تحليلي ومنطقي", "قدرة على التعلم الذاتي المستمر", "صبر بالتجربة والخطأ"],
-    "skillsToLearnNow": ["تعلم Python أو JavaScript من مصدر مجاني", "حل تمارين منطق وخوارزميات بسيطة"],
-    "careers": ["مطور تطبيقات ويب أو موبايل", "مهندس برمجيات", "محلل بيانات"],
-    "relatedMajors": ["computer-engineering", "software-development", "ai-engineering"]
+    "skillsNeeded": [
+      "تفكير تحليلي ومنطقي",
+      "قدرة على التعلم الذاتي المستمر",
+      "صبر بالتجربة والخطأ"
+    ],
+    "skillsToLearnNow": [
+      "تعلم Python أو JavaScript من مصدر مجاني",
+      "حل تمارين منطق وخوارزميات بسيطة"
+    ],
+    "careers": [
+      "مطور تطبيقات ويب أو موبايل",
+      "مهندس برمجيات",
+      "محلل بيانات"
+    ],
+    "relatedMajors": [
+      "computer-engineering",
+      "software-development",
+      "ai-engineering"
+    ]
   },
   {
     "id": "business-administration",
     "name": "إدارة الأعمال",
     "faculty": "كلية الاقتصاد والعلوم الإدارية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 13 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
-      { "university": "جامعة فلسطين", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 13
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تنظيم وإدارة وقت", "مهارات تواصل وعرض أفكار", "تفكير رقمي بسيط بالأرقام والجداول"],
-    "skillsToLearnNow": ["تعلم أساسيات Excel", "قراءة عن مفاهيم إدارة ومشاريع بسيطة"],
-    "careers": ["موظف موارد بشرية", "مسؤول تسويق", "ريادة أعمال ومشروع خاص"],
-    "relatedMajors": ["accounting", "management-information-systems", "law"]
+    "skillsNeeded": [
+      "تنظيم وإدارة وقت",
+      "مهارات تواصل وعرض أفكار",
+      "تفكير رقمي بسيط بالأرقام والجداول"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات Excel",
+      "قراءة عن مفاهيم إدارة ومشاريع بسيطة"
+    ],
+    "careers": [
+      "موظف موارد بشرية",
+      "مسؤول تسويق",
+      "ريادة أعمال ومشروع خاص"
+    ],
+    "relatedMajors": [
+      "accounting",
+      "management-information-systems",
+      "law"
+    ]
   },
   {
     "id": "accounting",
     "name": "المحاسبة",
     "faculty": "كلية الاقتصاد والعلوم الإدارية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 13 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
-      { "university": "جامعة فلسطين", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 13
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["دقة بالتعامل مع الأرقام", "تنظيم وترتيب", "أمانة ومسؤولية مالية"],
-    "skillsToLearnNow": ["تعلم أساسيات Excel وبرامج محاسبة بسيطة", "مراجعة مبادئ الحساب والنسب"],
-    "careers": ["محاسب بشركة أو مؤسسة", "مدقق حسابات", "محاسب مستقل (فريلانس)"],
-    "relatedMajors": ["business-administration", "management-information-systems"]
+    "skillsNeeded": [
+      "دقة بالتعامل مع الأرقام",
+      "تنظيم وترتيب",
+      "أمانة ومسؤولية مالية"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات Excel وبرامج محاسبة بسيطة",
+      "مراجعة مبادئ الحساب والنسب"
+    ],
+    "careers": [
+      "محاسب بشركة أو مؤسسة",
+      "مدقق حسابات",
+      "محاسب مستقل (فريلانس)"
+    ],
+    "relatedMajors": [
+      "business-administration",
+      "management-information-systems"
+    ]
   },
   {
     "id": "law",
     "name": "القانون",
     "faculty": "كلية الحقوق",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 75, "competitiveGpa": 75, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 75, "competitiveGpa": 75, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 75,
+        "competitiveGpa": 75,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 75,
+        "competitiveGpa": 75,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["قدرة قوية على الحفظ والفهم", "مهارة كتابة وصياغة", "تفكير منطقي وتحليل نصوص"],
-    "skillsToLearnNow": ["قراءة كتب أو مقالات قانونية مبسطة", "متابعة نقاشات ومناظرات لتقوية الإقناع"],
-    "careers": ["محامي بعد التدريب والترخيص", "مستشار قانوني بشركة أو مؤسسة", "قاضٍ (بعد سنوات خبرة)"],
-    "relatedMajors": ["law-and-it", "sharia-and-law", "business-administration"]
+    "skillsNeeded": [
+      "قدرة قوية على الحفظ والفهم",
+      "مهارة كتابة وصياغة",
+      "تفكير منطقي وتحليل نصوص"
+    ],
+    "skillsToLearnNow": [
+      "قراءة كتب أو مقالات قانونية مبسطة",
+      "متابعة نقاشات ومناظرات لتقوية الإقناع"
+    ],
+    "careers": [
+      "محامي بعد التدريب والترخيص",
+      "مستشار قانوني بشركة أو مؤسسة",
+      "قاضٍ (بعد سنوات خبرة)"
+    ],
+    "relatedMajors": [
+      "law-and-it",
+      "sharia-and-law",
+      "business-administration"
+    ]
   },
   {
     "id": "english-literature",
     "name": "اللغة الإنجليزية وآدابها",
     "faculty": "كلية الآداب والعلوم الإنسانية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 70, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حب القراءة باللغة الإنجليزية", "مهارة كتابة وتعبير", "أذن لغوية جيدة للنطق والاستماع"],
-    "skillsToLearnNow": ["قراءة كتب أو مقالات إنجليزية بسيطة يومياً", "متابعة بودكاست أو فيديوهات إنجليزية"],
-    "careers": ["مدرس لغة إنجليزية", "مترجم", "محرر محتوى بالإنجليزية"],
-    "relatedMajors": ["english-teaching", "english-education", "arabic-literature"]
+    "skillsNeeded": [
+      "حب القراءة باللغة الإنجليزية",
+      "مهارة كتابة وتعبير",
+      "أذن لغوية جيدة للنطق والاستماع"
+    ],
+    "skillsToLearnNow": [
+      "قراءة كتب أو مقالات إنجليزية بسيطة يومياً",
+      "متابعة بودكاست أو فيديوهات إنجليزية"
+    ],
+    "careers": [
+      "مدرس لغة إنجليزية",
+      "مترجم",
+      "محرر محتوى بالإنجليزية"
+    ],
+    "relatedMajors": [
+      "english-teaching",
+      "english-education",
+      "arabic-literature"
+    ]
   },
   {
     "id": "arabic-education",
     "name": "اللغة العربية وأساليب تدريسها",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 70, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حب اللغة العربية وقواعدها", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["مراجعة قواعد النحو والصرف", "التمرن على إلقاء وشرح بسيط"],
-    "careers": ["معلم/ة لغة عربية", "مشرف تربوي", "معد محتوى تعليمي"],
-    "relatedMajors": ["arabic-literature", "basic-stage-education"]
+    "skillsNeeded": [
+      "حب اللغة العربية وقواعدها",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة قواعد النحو والصرف",
+      "التمرن على إلقاء وشرح بسيط"
+    ],
+    "careers": [
+      "معلم/ة لغة عربية",
+      "مشرف تربوي",
+      "معد محتوى تعليمي"
+    ],
+    "relatedMajors": [
+      "arabic-literature",
+      "basic-stage-education"
+    ]
   },
   {
     "id": "english-education",
     "name": "اللغة الإنجليزية وأساليب تدريسها",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 75, "year": 2026, "verified": true, "feePerCreditHour": 10 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 75,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      }
     ],
-    "skillsNeeded": ["لغة إنجليزية قوية", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["تقوية القواعد والمحادثة بالإنجليزي", "متابعة مصادر تدريس لغة مجانية"],
-    "careers": ["معلم/ة لغة إنجليزية", "مدرب لغة بمركز تدريب", "معد محتوى تعليمي بالإنجليزي"],
-    "relatedMajors": ["english-literature", "english-teaching"]
+    "skillsNeeded": [
+      "لغة إنجليزية قوية",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "تقوية القواعد والمحادثة بالإنجليزي",
+      "متابعة مصادر تدريس لغة مجانية"
+    ],
+    "careers": [
+      "معلم/ة لغة إنجليزية",
+      "مدرب لغة بمركز تدريب",
+      "معد محتوى تعليمي بالإنجليزي"
+    ],
+    "relatedMajors": [
+      "english-literature",
+      "english-teaching"
+    ]
   },
   {
     "id": "english-teaching",
     "name": "تعليم اللغة الإنجليزية",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 70, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["لغة إنجليزية قوية", "مهارة إدارة صف", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["تقوية القواعد والمحادثة بالإنجليزي", "متابعة مصادر تدريس لغة مجانية"],
-    "careers": ["معلم/ة لغة إنجليزية بمدرسة", "مدرب لغة بمركز تدريب"],
-    "relatedMajors": ["english-education", "english-literature"]
+    "skillsNeeded": [
+      "لغة إنجليزية قوية",
+      "مهارة إدارة صف",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "تقوية القواعد والمحادثة بالإنجليزي",
+      "متابعة مصادر تدريس لغة مجانية"
+    ],
+    "careers": [
+      "معلم/ة لغة إنجليزية بمدرسة",
+      "مدرب لغة بمركز تدريب"
+    ],
+    "relatedMajors": [
+      "english-education",
+      "english-literature"
+    ]
   },
   {
     "id": "history-education",
     "name": "التاريخ وأساليب تدريسه",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حب القراءة والتاريخ", "مهارة سرد وشرح", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["قراءة موسعة عن تاريخ فلسطين والمنطقة", "التمرن على تلخيص وشرح أحداث تاريخية"],
-    "careers": ["معلم/ة تاريخ", "مرشد بمتحف أو موقع أثري", "باحث تاريخي"],
-    "relatedMajors": ["history", "geography-education"]
+    "skillsNeeded": [
+      "حب القراءة والتاريخ",
+      "مهارة سرد وشرح",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "قراءة موسعة عن تاريخ فلسطين والمنطقة",
+      "التمرن على تلخيص وشرح أحداث تاريخية"
+    ],
+    "careers": [
+      "معلم/ة تاريخ",
+      "مرشد بمتحف أو موقع أثري",
+      "باحث تاريخي"
+    ],
+    "relatedMajors": [
+      "history",
+      "geography-education"
+    ]
   },
   {
     "id": "geography-education",
     "name": "الجغرافيا وأساليب تدريسها",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حب القراءة والخرائط", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["مراجعة أساسيات الجغرافيا الطبيعية والبشرية", "التعرف على أنظمة المعلومات الجغرافية GIS"],
-    "careers": ["معلم/ة جغرافيا", "مساعد بمشاريع تخطيط عمراني"],
-    "relatedMajors": ["geography", "history-education"]
+    "skillsNeeded": [
+      "حب القراءة والخرائط",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة أساسيات الجغرافيا الطبيعية والبشرية",
+      "التعرف على أنظمة المعلومات الجغرافية GIS"
+    ],
+    "careers": [
+      "معلم/ة جغرافيا",
+      "مساعد بمشاريع تخطيط عمراني"
+    ],
+    "relatedMajors": [
+      "geography",
+      "history-education"
+    ]
   },
   {
     "id": "math-education-methods",
     "name": "الرياضيات وأساليب تدريسها",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 70, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس قوي بالرياضيات", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["مراجعة مواد رياضيات التوجيهي", "التمرن على شرح مسائل بطريقة مبسطة"],
-    "careers": ["معلم/ة رياضيات", "مدرس خصوصي", "معد محتوى تعليمي"],
-    "relatedMajors": ["math-teaching", "mathematics"]
+    "skillsNeeded": [
+      "أساس قوي بالرياضيات",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة مواد رياضيات التوجيهي",
+      "التمرن على شرح مسائل بطريقة مبسطة"
+    ],
+    "careers": [
+      "معلم/ة رياضيات",
+      "مدرس خصوصي",
+      "معد محتوى تعليمي"
+    ],
+    "relatedMajors": [
+      "math-teaching",
+      "mathematics"
+    ]
   },
   {
     "id": "math-teaching",
     "name": "تعليم الرياضيات",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس قوي بالرياضيات", "مهارة إدارة صف", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["مراجعة مواد رياضيات التوجيهي", "التمرن على شرح مسائل بطريقة مبسطة"],
-    "careers": ["معلم/ة رياضيات بمدرسة", "مدرس خصوصي"],
-    "relatedMajors": ["math-education-methods", "mathematics"]
+    "skillsNeeded": [
+      "أساس قوي بالرياضيات",
+      "مهارة إدارة صف",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة مواد رياضيات التوجيهي",
+      "التمرن على شرح مسائل بطريقة مبسطة"
+    ],
+    "careers": [
+      "معلم/ة رياضيات بمدرسة",
+      "مدرس خصوصي"
+    ],
+    "relatedMajors": [
+      "math-education-methods",
+      "mathematics"
+    ]
   },
   {
     "id": "chemistry-education",
     "name": "الكيمياء وأساليب تدريسها",
     "faculty": "كلية التربية",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      }
     ],
-    "skillsNeeded": ["أساس قوي بالكيمياء", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["مراجعة مواد الكيمياء بالتوجيهي", "التمرن على تحضير تجارب مخبرية بسيطة وشرحها"],
-    "careers": ["معلم/ة كيمياء", "مسؤول مختبر مدرسي"],
-    "relatedMajors": ["chemistry", "science-teaching"]
+    "skillsNeeded": [
+      "أساس قوي بالكيمياء",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة مواد الكيمياء بالتوجيهي",
+      "التمرن على تحضير تجارب مخبرية بسيطة وشرحها"
+    ],
+    "careers": [
+      "معلم/ة كيمياء",
+      "مسؤول مختبر مدرسي"
+    ],
+    "relatedMajors": [
+      "chemistry",
+      "science-teaching"
+    ]
   },
   {
     "id": "physics-education",
     "name": "الفيزياء وأساليب تدريسها",
     "faculty": "كلية التربية",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      }
     ],
-    "skillsNeeded": ["أساس قوي بالفيزياء", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["مراجعة مواد الفيزياء بالتوجيهي", "التمرن على تبسيط المفاهيم الفيزيائية"],
-    "careers": ["معلم/ة فيزياء", "مسؤول مختبر مدرسي"],
-    "relatedMajors": ["physics", "science-teaching"]
+    "skillsNeeded": [
+      "أساس قوي بالفيزياء",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة مواد الفيزياء بالتوجيهي",
+      "التمرن على تبسيط المفاهيم الفيزيائية"
+    ],
+    "careers": [
+      "معلم/ة فيزياء",
+      "مسؤول مختبر مدرسي"
+    ],
+    "relatedMajors": [
+      "physics",
+      "science-teaching"
+    ]
   },
   {
     "id": "biology-education",
     "name": "الأحياء وأساليب تدريسها",
     "faculty": "كلية التربية",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      }
     ],
-    "skillsNeeded": ["أساس قوي بالأحياء", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["مراجعة مواد الأحياء بالتوجيهي", "التمرن على تبسيط المفاهيم الحيوية"],
-    "careers": ["معلم/ة أحياء", "مسؤول مختبر مدرسي"],
-    "relatedMajors": ["biology", "science-teaching"]
+    "skillsNeeded": [
+      "أساس قوي بالأحياء",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة مواد الأحياء بالتوجيهي",
+      "التمرن على تبسيط المفاهيم الحيوية"
+    ],
+    "careers": [
+      "معلم/ة أحياء",
+      "مسؤول مختبر مدرسي"
+    ],
+    "relatedMajors": [
+      "biology",
+      "science-teaching"
+    ]
   },
   {
     "id": "science-teaching",
     "name": "تعليم العلوم",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس علمي عام قوي", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["مراجعة مواد العلوم العامة", "التمرن على تحضير دروس علمية مبسطة"],
-    "careers": ["معلم/ة علوم بالمرحلة الأساسية", "معد محتوى تعليمي علمي"],
-    "relatedMajors": ["biology-education", "chemistry-education", "physics-education"]
+    "skillsNeeded": [
+      "أساس علمي عام قوي",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة مواد العلوم العامة",
+      "التمرن على تحضير دروس علمية مبسطة"
+    ],
+    "careers": [
+      "معلم/ة علوم بالمرحلة الأساسية",
+      "معد محتوى تعليمي علمي"
+    ],
+    "relatedMajors": [
+      "biology-education",
+      "chemistry-education",
+      "physics-education"
+    ]
   },
   {
     "id": "islamic-studies-education",
     "name": "دراسات إسلامية وأساليب تدريسها",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حفظ وفهم للنصوص الدينية", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["مراجعة مواد التربية الإسلامية", "التمرن على الإلقاء والخطابة البسيطة"],
-    "careers": ["معلم/ة تربية إسلامية", "إمام أو واعظ بمركز ديني"],
-    "relatedMajors": ["islamic-sharia", "usul-al-din"]
+    "skillsNeeded": [
+      "حفظ وفهم للنصوص الدينية",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة مواد التربية الإسلامية",
+      "التمرن على الإلقاء والخطابة البسيطة"
+    ],
+    "careers": [
+      "معلم/ة تربية إسلامية",
+      "إمام أو واعظ بمركز ديني"
+    ],
+    "relatedMajors": [
+      "islamic-sharia",
+      "usul-al-din"
+    ]
   },
   {
     "id": "psychological-counseling",
     "name": "الإرشاد النفسي",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["إصغاء وتعاطف", "قدرة على كسب الثقة", "صبر بالتعامل مع حالات صعبة"],
-    "skillsToLearnNow": ["قراءة مقدمات بعلم النفس التربوي", "التطوع بأعمال دعم نفسي بسيطة"],
-    "careers": ["مرشد نفسي بمدرسة", "أخصائي دعم نفسي اجتماعي بمؤسسة"],
-    "relatedMajors": ["sociology-social-work", "educational-guidance"]
+    "skillsNeeded": [
+      "إصغاء وتعاطف",
+      "قدرة على كسب الثقة",
+      "صبر بالتعامل مع حالات صعبة"
+    ],
+    "skillsToLearnNow": [
+      "قراءة مقدمات بعلم النفس التربوي",
+      "التطوع بأعمال دعم نفسي بسيطة"
+    ],
+    "careers": [
+      "مرشد نفسي بمدرسة",
+      "أخصائي دعم نفسي اجتماعي بمؤسسة"
+    ],
+    "relatedMajors": [
+      "sociology-social-work",
+      "educational-guidance"
+    ]
   },
   {
     "id": "tech-applied-science-education",
     "name": "التكنولوجيا والعلوم التطبيقية وأساليب تدريسها",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      }
     ],
-    "skillsNeeded": ["فضول تقني", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["التعرف على أساسيات التكنولوجيا التطبيقية بالمدارس", "التمرن على تحضير دروس عملية"],
-    "careers": ["معلم/ة تكنولوجيا بالمدرسة", "مسؤول مختبر تكنولوجيا مدرسي"],
-    "relatedMajors": ["computer-education-methods", "science-teaching"]
+    "skillsNeeded": [
+      "فضول تقني",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "التعرف على أساسيات التكنولوجيا التطبيقية بالمدارس",
+      "التمرن على تحضير دروس عملية"
+    ],
+    "careers": [
+      "معلم/ة تكنولوجيا بالمدرسة",
+      "مسؤول مختبر تكنولوجيا مدرسي"
+    ],
+    "relatedMajors": [
+      "computer-education-methods",
+      "science-teaching"
+    ]
   },
   {
     "id": "basic-stage-education",
     "name": "المرحلة الأساسية",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
-      { "university": "جامعة فلسطين", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["صبر وحب التعامل مع الأطفال", "مهارة شرح وتبسيط", "قدرة على ضبط الصف"],
-    "skillsToLearnNow": ["قراءة عن أساليب تعليم الأطفال", "التطوع أو التدريب بمركز تعليمي للأطفال"],
-    "careers": ["معلم/ة صف بالمرحلة الأساسية", "منسق برامج تعليمية للأطفال"],
-    "relatedMajors": ["arabic-education", "upper-stage-teaching"]
+    "skillsNeeded": [
+      "صبر وحب التعامل مع الأطفال",
+      "مهارة شرح وتبسيط",
+      "قدرة على ضبط الصف"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساليب تعليم الأطفال",
+      "التطوع أو التدريب بمركز تعليمي للأطفال"
+    ],
+    "careers": [
+      "معلم/ة صف بالمرحلة الأساسية",
+      "منسق برامج تعليمية للأطفال"
+    ],
+    "relatedMajors": [
+      "arabic-education",
+      "upper-stage-teaching"
+    ]
   },
   {
     "id": "social-studies-teaching",
     "name": "تعليم الاجتماعيات",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حب القراءة بالتاريخ والجغرافيا", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["مراجعة مواد التاريخ والجغرافيا العامة", "التمرن على تحضير دروس مبسطة"],
-    "careers": ["معلم/ة اجتماعيات", "معد محتوى تعليمي"],
-    "relatedMajors": ["history-education", "geography-education"]
+    "skillsNeeded": [
+      "حب القراءة بالتاريخ والجغرافيا",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة مواد التاريخ والجغرافيا العامة",
+      "التمرن على تحضير دروس مبسطة"
+    ],
+    "careers": [
+      "معلم/ة اجتماعيات",
+      "معد محتوى تعليمي"
+    ],
+    "relatedMajors": [
+      "history-education",
+      "geography-education"
+    ]
   },
   {
     "id": "educational-guidance",
     "name": "التوجيه التربوي",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["إصغاء وتعاطف", "مهارة تواصل مع الطلاب وأولياء الأمور", "تنظيم وإدارة"],
-    "skillsToLearnNow": ["قراءة عن أساليب التوجيه التربوي", "التطوع بأعمال إرشادية مدرسية"],
-    "careers": ["موجه تربوي بمدرسة", "منسق شؤون طلابية"],
-    "relatedMajors": ["psychological-counseling", "basic-stage-education"]
+    "skillsNeeded": [
+      "إصغاء وتعاطف",
+      "مهارة تواصل مع الطلاب وأولياء الأمور",
+      "تنظيم وإدارة"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساليب التوجيه التربوي",
+      "التطوع بأعمال إرشادية مدرسية"
+    ],
+    "careers": [
+      "موجه تربوي بمدرسة",
+      "منسق شؤون طلابية"
+    ],
+    "relatedMajors": [
+      "psychological-counseling",
+      "basic-stage-education"
+    ]
   },
   {
     "id": "computer-education-methods",
     "name": "الحاسوب وأساليب تدريسها",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساسيات حاسوب جيدة", "مهارة شرح وتبسيط", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["تقوية المهارات الأساسية بالحاسوب", "التمرن على تحضير دروس حاسوب مبسطة"],
-    "careers": ["معلم/ة حاسوب بمدرسة", "مسؤول مختبر حاسوب مدرسي"],
-    "relatedMajors": ["computer-science", "tech-applied-science-education"]
+    "skillsNeeded": [
+      "أساسيات حاسوب جيدة",
+      "مهارة شرح وتبسيط",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "تقوية المهارات الأساسية بالحاسوب",
+      "التمرن على تحضير دروس حاسوب مبسطة"
+    ],
+    "careers": [
+      "معلم/ة حاسوب بمدرسة",
+      "مسؤول مختبر حاسوب مدرسي"
+    ],
+    "relatedMajors": [
+      "computer-science",
+      "tech-applied-science-education"
+    ]
   },
   {
     "id": "upper-stage-teaching",
     "name": "تعليم المرحلة العليا ولغة إنجليزية",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["مهارة شرح وتبسيط", "لغة إنجليزية جيدة", "صبر بالتعامل مع الطلاب"],
-    "skillsToLearnNow": ["تقوية اللغة الإنجليزية", "قراءة عن أساليب تدريس المرحلة الثانوية"],
-    "careers": ["معلم/ة بالمرحلة الثانوية", "معلم/ة لغة إنجليزية"],
-    "relatedMajors": ["basic-stage-education", "english-teaching"]
+    "skillsNeeded": [
+      "مهارة شرح وتبسيط",
+      "لغة إنجليزية جيدة",
+      "صبر بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "تقوية اللغة الإنجليزية",
+      "قراءة عن أساليب تدريس المرحلة الثانوية"
+    ],
+    "careers": [
+      "معلم/ة بالمرحلة الثانوية",
+      "معلم/ة لغة إنجليزية"
+    ],
+    "relatedMajors": [
+      "basic-stage-education",
+      "english-teaching"
+    ]
   },
   {
     "id": "general-education",
     "name": "التربية العامة",
     "faculty": "كلية التربية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأزهر", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["صبر وحب التعليم", "مهارة تواصل مع الطلاب", "تنظيم وإدارة صف"],
-    "skillsToLearnNow": ["قراءة عن أساسيات علم التربية", "التطوع أو التدريب بمدرسة"],
-    "careers": ["معلم/ة عام", "مساعد إداري تربوي"],
-    "relatedMajors": ["basic-stage-education", "educational-guidance"]
+    "skillsNeeded": [
+      "صبر وحب التعليم",
+      "مهارة تواصل مع الطلاب",
+      "تنظيم وإدارة صف"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساسيات علم التربية",
+      "التطوع أو التدريب بمدرسة"
+    ],
+    "careers": [
+      "معلم/ة عام",
+      "مساعد إداري تربوي"
+    ],
+    "relatedMajors": [
+      "basic-stage-education",
+      "educational-guidance"
+    ]
   },
   {
     "id": "digital-education",
     "name": "التعليم والتعلم الرقمي",
     "faculty": "كلية العلوم الرقمية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساسيات تقنية جيدة", "مهارة تصميم محتوى تعليمي", "تنظيم وتخطيط"],
-    "skillsToLearnNow": ["تعلم أدوات تصميم محتوى تعليمي رقمي مجانية", "متابعة منصات تعليم إلكتروني"],
-    "careers": ["مصمم محتوى تعليمي رقمي", "منسق تعلم إلكتروني بمؤسسة تعليمية"],
-    "relatedMajors": ["digital-media", "computer-education-methods"]
+    "skillsNeeded": [
+      "أساسيات تقنية جيدة",
+      "مهارة تصميم محتوى تعليمي",
+      "تنظيم وتخطيط"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أدوات تصميم محتوى تعليمي رقمي مجانية",
+      "متابعة منصات تعليم إلكتروني"
+    ],
+    "careers": [
+      "مصمم محتوى تعليمي رقمي",
+      "منسق تعلم إلكتروني بمؤسسة تعليمية"
+    ],
+    "relatedMajors": [
+      "digital-media",
+      "computer-education-methods"
+    ]
   },
   {
     "id": "arabic-literature",
     "name": "اللغة العربية وآدابها",
     "faculty": "كلية الآداب والعلوم الإنسانية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حب القراءة والأدب العربي", "مهارة كتابة وتعبير", "ذاكرة قوية للنصوص والشواهد"],
-    "skillsToLearnNow": ["قراءة نصوص أدبية عربية متنوعة", "التمرن على الكتابة الإبداعية"],
-    "careers": ["محرر ومدقق لغوي", "كاتب محتوى", "معلم لغة عربية (مع مؤهل تربوي)"],
-    "relatedMajors": ["arabic-education", "journalism"]
+    "skillsNeeded": [
+      "حب القراءة والأدب العربي",
+      "مهارة كتابة وتعبير",
+      "ذاكرة قوية للنصوص والشواهد"
+    ],
+    "skillsToLearnNow": [
+      "قراءة نصوص أدبية عربية متنوعة",
+      "التمرن على الكتابة الإبداعية"
+    ],
+    "careers": [
+      "محرر ومدقق لغوي",
+      "كاتب محتوى",
+      "معلم لغة عربية (مع مؤهل تربوي)"
+    ],
+    "relatedMajors": [
+      "arabic-education",
+      "journalism"
+    ]
   },
   {
     "id": "french-language",
     "name": "اللغة الفرنسية",
     "faculty": "كلية الآداب والعلوم الإنسانية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      }
     ],
-    "skillsNeeded": ["حب تعلم اللغات", "مهارة نطق واستماع", "صبر على حفظ المفردات"],
-    "skillsToLearnNow": ["تعلم أساسيات فرنسي من مصدر مجاني", "متابعة بودكاست أو فيديوهات فرنسية"],
-    "careers": ["مترجم لغة فرنسية", "معلم لغة فرنسية", "موظف بمؤسسة تتعامل بالفرنسية"],
-    "relatedMajors": ["english-literature", "arabic-literature"]
+    "skillsNeeded": [
+      "حب تعلم اللغات",
+      "مهارة نطق واستماع",
+      "صبر على حفظ المفردات"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات فرنسي من مصدر مجاني",
+      "متابعة بودكاست أو فيديوهات فرنسية"
+    ],
+    "careers": [
+      "مترجم لغة فرنسية",
+      "معلم لغة فرنسية",
+      "موظف بمؤسسة تتعامل بالفرنسية"
+    ],
+    "relatedMajors": [
+      "english-literature",
+      "arabic-literature"
+    ]
   },
   {
     "id": "sociology-social-work",
     "name": "علم الاجتماع والخدمة الاجتماعية",
     "faculty": "كلية الآداب والعلوم الإنسانية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      }
     ],
-    "skillsNeeded": ["إصغاء وتعاطف", "مهارة تواصل مع فئات مختلفة", "قدرة على العمل الميداني"],
-    "skillsToLearnNow": ["قراءة عن قضايا مجتمعية محلية", "التطوع بمؤسسة أهلية أو خيرية"],
-    "careers": ["أخصائي اجتماعي بمؤسسة", "باحث اجتماعي", "منسق برامج بمنظمة إنسانية"],
-    "relatedMajors": ["psychological-counseling", "educational-guidance"]
+    "skillsNeeded": [
+      "إصغاء وتعاطف",
+      "مهارة تواصل مع فئات مختلفة",
+      "قدرة على العمل الميداني"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن قضايا مجتمعية محلية",
+      "التطوع بمؤسسة أهلية أو خيرية"
+    ],
+    "careers": [
+      "أخصائي اجتماعي بمؤسسة",
+      "باحث اجتماعي",
+      "منسق برامج بمنظمة إنسانية"
+    ],
+    "relatedMajors": [
+      "psychological-counseling",
+      "educational-guidance"
+    ]
   },
   {
     "id": "history",
     "name": "التاريخ",
     "faculty": "كلية الآداب والعلوم الإنسانية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حب القراءة والبحث", "مهارة تحليل مصادر ووثائق", "ذاكرة قوية للأحداث والتواريخ"],
-    "skillsToLearnNow": ["قراءة موسعة عن تاريخ فلسطين والمنطقة", "زيارة مواقع ومتاحف أثرية"],
-    "careers": ["باحث تاريخي وأثري", "مرشد بمتحف أو موقع أثري", "معلم تاريخ (مع مؤهل تربوي)"],
-    "relatedMajors": ["history-education", "geography"]
+    "skillsNeeded": [
+      "حب القراءة والبحث",
+      "مهارة تحليل مصادر ووثائق",
+      "ذاكرة قوية للأحداث والتواريخ"
+    ],
+    "skillsToLearnNow": [
+      "قراءة موسعة عن تاريخ فلسطين والمنطقة",
+      "زيارة مواقع ومتاحف أثرية"
+    ],
+    "careers": [
+      "باحث تاريخي وأثري",
+      "مرشد بمتحف أو موقع أثري",
+      "معلم تاريخ (مع مؤهل تربوي)"
+    ],
+    "relatedMajors": [
+      "history-education",
+      "geography"
+    ]
   },
   {
     "id": "geography",
     "name": "الجغرافيا",
     "faculty": "كلية الآداب والعلوم الإنسانية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حب القراءة والخرائط", "مهارة تحليل بيانات مكانية", "فضول استكشافي"],
-    "skillsToLearnNow": ["التعرف على أساسيات نظم المعلومات الجغرافية GIS", "قراءة عن جغرافيا فلسطين"],
-    "careers": ["مخطط عمراني مساعد", "محلل بيانات مكانية GIS", "معلم جغرافيا (مع مؤهل تربوي)"],
-    "relatedMajors": ["geography-education", "history"]
+    "skillsNeeded": [
+      "حب القراءة والخرائط",
+      "مهارة تحليل بيانات مكانية",
+      "فضول استكشافي"
+    ],
+    "skillsToLearnNow": [
+      "التعرف على أساسيات نظم المعلومات الجغرافية GIS",
+      "قراءة عن جغرافيا فلسطين"
+    ],
+    "careers": [
+      "مخطط عمراني مساعد",
+      "محلل بيانات مكانية GIS",
+      "معلم جغرافيا (مع مؤهل تربوي)"
+    ],
+    "relatedMajors": [
+      "geography-education",
+      "history"
+    ]
   },
   {
     "id": "humanities-general",
     "name": "الآداب والعلوم الإنسانية",
     "faculty": "كلية الآداب والعلوم الإنسانية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأزهر", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حب القراءة والاطلاع", "مهارة كتابة وتعبير", "تفكير نقدي"],
-    "skillsToLearnNow": ["قراءة متنوعة بمجالات الأدب والفكر", "التمرن على الكتابة والتلخيص"],
-    "careers": ["كاتب ومحرر محتوى", "باحث بمجال إنساني", "موظف بقطاع ثقافي أو إعلامي"],
-    "relatedMajors": ["arabic-literature", "journalism"]
+    "skillsNeeded": [
+      "حب القراءة والاطلاع",
+      "مهارة كتابة وتعبير",
+      "تفكير نقدي"
+    ],
+    "skillsToLearnNow": [
+      "قراءة متنوعة بمجالات الأدب والفكر",
+      "التمرن على الكتابة والتلخيص"
+    ],
+    "careers": [
+      "كاتب ومحرر محتوى",
+      "باحث بمجال إنساني",
+      "موظف بقطاع ثقافي أو إعلامي"
+    ],
+    "relatedMajors": [
+      "arabic-literature",
+      "journalism"
+    ]
   },
   {
     "id": "digital-arts-education",
     "name": "التربية الفنية وآدابها - مسار الفنون الرقمية",
     "faculty": "كلية الفنون",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 60, "competitiveGpa": 60, "year": 2026, "verified": true, "feePerCreditHour": 12 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 60,
+        "competitiveGpa": 60,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 12
+      }
     ],
-    "skillsNeeded": ["حس فني وإبداعي", "مهارة رسم أو تصميم رقمي", "صبر على التفاصيل"],
-    "skillsToLearnNow": ["تجربة برامج تصميم مجانية", "بناء ملف أعمال بسيط (بورتفوليو)"],
-    "careers": ["معلم/ة تربية فنية", "مصمم فنون رقمية"],
-    "relatedMajors": ["graphic-design", "interior-design"]
+    "skillsNeeded": [
+      "حس فني وإبداعي",
+      "مهارة رسم أو تصميم رقمي",
+      "صبر على التفاصيل"
+    ],
+    "skillsToLearnNow": [
+      "تجربة برامج تصميم مجانية",
+      "بناء ملف أعمال بسيط (بورتفوليو)"
+    ],
+    "careers": [
+      "معلم/ة تربية فنية",
+      "مصمم فنون رقمية"
+    ],
+    "relatedMajors": [
+      "graphic-design",
+      "interior-design"
+    ]
   },
   {
     "id": "interior-design",
     "name": "الديكور والتصميم الداخلي",
     "faculty": "كلية الفنون",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 70, "year": 2026, "verified": true, "feePerCreditHour": 12 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 12
+      }
     ],
-    "skillsNeeded": ["حس فني وذوق بصري", "مهارة رسم تقني", "دقة بالقياسات والتفاصيل"],
-    "skillsToLearnNow": ["تجربة برامج تصميم داخلي مجانية أو تجريبية", "بناء ملف أعمال بسيط (بورتفوليو)"],
-    "careers": ["مصمم ديكور داخلي", "مساعد مهندس معماري بالتصميم الداخلي"],
-    "relatedMajors": ["architecture-engineering", "graphic-design"]
+    "skillsNeeded": [
+      "حس فني وذوق بصري",
+      "مهارة رسم تقني",
+      "دقة بالقياسات والتفاصيل"
+    ],
+    "skillsToLearnNow": [
+      "تجربة برامج تصميم داخلي مجانية أو تجريبية",
+      "بناء ملف أعمال بسيط (بورتفوليو)"
+    ],
+    "careers": [
+      "مصمم ديكور داخلي",
+      "مساعد مهندس معماري بالتصميم الداخلي"
+    ],
+    "relatedMajors": [
+      "architecture-engineering",
+      "graphic-design"
+    ]
   },
   {
     "id": "graphic-design",
     "name": "الفنون التشكيلية - مسار التصميم الجرافيكي",
     "faculty": "كلية الفنون",
-    "track": ["أدبي"],
+    "track": [
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 75, "year": 2026, "verified": true, "feePerCreditHour": 12 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 75,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 12
+      }
     ],
-    "skillsNeeded": ["حس فني وإبداعي", "مهارة تصميم رقمي", "ذوق بصري بالألوان والتنسيق"],
-    "skillsToLearnNow": ["تعلم أساسيات Canva أو Figma", "بناء ملف أعمال بسيط (بورتفوليو)"],
-    "careers": ["مصمم جرافيك بمؤسسة أو وكالة", "مصمم مستقل (فريلانس)"],
-    "relatedMajors": ["digital-media", "web-mobile-multimedia"]
+    "skillsNeeded": [
+      "حس فني وإبداعي",
+      "مهارة تصميم رقمي",
+      "ذوق بصري بالألوان والتنسيق"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات Canva أو Figma",
+      "بناء ملف أعمال بسيط (بورتفوليو)"
+    ],
+    "careers": [
+      "مصمم جرافيك بمؤسسة أو وكالة",
+      "مصمم مستقل (فريلانس)"
+    ],
+    "relatedMajors": [
+      "digital-media",
+      "web-mobile-multimedia"
+    ]
   },
   {
     "id": "physical-education",
     "name": "التربية الرياضية والتدريب الرياضي",
     "faculty": "كلية التربية البدنية والرياضة",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 60, "competitiveGpa": 60, "year": 2026, "verified": true, "feePerCreditHour": 12 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 60,
+        "competitiveGpa": 60,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 12
+      }
     ],
-    "skillsNeeded": ["لياقة بدنية جيدة", "روح قيادية بالتدريب", "صبر بالتعامل مع الطلاب أو الرياضيين"],
-    "skillsToLearnNow": ["ممارسة رياضة بانتظام", "قراءة عن أساسيات التدريب الرياضي"],
-    "careers": ["مدرس تربية رياضية", "مدرب فريق رياضي", "أخصائي لياقة بدنية"],
-    "relatedMajors": ["basic-stage-education"]
+    "skillsNeeded": [
+      "لياقة بدنية جيدة",
+      "روح قيادية بالتدريب",
+      "صبر بالتعامل مع الطلاب أو الرياضيين"
+    ],
+    "skillsToLearnNow": [
+      "ممارسة رياضة بانتظام",
+      "قراءة عن أساسيات التدريب الرياضي"
+    ],
+    "careers": [
+      "مدرس تربية رياضية",
+      "مدرب فريق رياضي",
+      "أخصائي لياقة بدنية"
+    ],
+    "relatedMajors": [
+      "basic-stage-education"
+    ]
   },
   {
     "id": "law-and-it",
     "name": "القانون وتكنولوجيا المعلومات",
     "faculty": "كلية الحقوق",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 75, "competitiveGpa": 75, "year": 2026, "verified": true, "feePerCreditHour": 13 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 75,
+        "competitiveGpa": 75,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 13
+      }
     ],
-    "skillsNeeded": ["قدرة على الحفظ والفهم القانوني", "أساسيات تقنية جيدة", "تفكير منطقي وتحليلي"],
-    "skillsToLearnNow": ["قراءة عن الجرائم الإلكترونية والقانون الرقمي", "تقوية أساسيات الحاسوب"],
-    "careers": ["مستشار قانوني بمجال التقنية", "محامي متخصص بالجرائم الإلكترونية"],
-    "relatedMajors": ["law", "computer-science"]
+    "skillsNeeded": [
+      "قدرة على الحفظ والفهم القانوني",
+      "أساسيات تقنية جيدة",
+      "تفكير منطقي وتحليلي"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن الجرائم الإلكترونية والقانون الرقمي",
+      "تقوية أساسيات الحاسوب"
+    ],
+    "careers": [
+      "مستشار قانوني بمجال التقنية",
+      "محامي متخصص بالجرائم الإلكترونية"
+    ],
+    "relatedMajors": [
+      "law",
+      "computer-science"
+    ]
   },
   {
     "id": "sharia-advocacy-arbitration",
     "name": "المحاماة الشرعية والتحكيم",
     "faculty": "كلية الحقوق",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 75, "competitiveGpa": 75, "year": 2026, "verified": true, "feePerCreditHour": 13 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 75,
+        "competitiveGpa": 75,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 13
+      }
     ],
-    "skillsNeeded": ["حفظ وفهم للأحكام الشرعية", "مهارة كتابة وصياغة", "قدرة على النقاش والإقناع"],
-    "skillsToLearnNow": ["قراءة عن مبادئ الفقه والتحكيم الشرعي", "متابعة نقاشات ومناظرات"],
-    "careers": ["محامي شرعي", "محكّم بمنازعات شرعية"],
-    "relatedMajors": ["islamic-sharia", "sharia-and-law"]
+    "skillsNeeded": [
+      "حفظ وفهم للأحكام الشرعية",
+      "مهارة كتابة وصياغة",
+      "قدرة على النقاش والإقناع"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن مبادئ الفقه والتحكيم الشرعي",
+      "متابعة نقاشات ومناظرات"
+    ],
+    "careers": [
+      "محامي شرعي",
+      "محكّم بمنازعات شرعية"
+    ],
+    "relatedMajors": [
+      "islamic-sharia",
+      "sharia-and-law"
+    ]
   },
   {
     "id": "digital-architecture-engineering",
     "name": "هندسة العمارة الرقمية",
     "faculty": "كلية الهندسة",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "5 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true, "feePerCreditHour": 20 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
     ],
-    "skillsNeeded": ["حس فني وهندسي", "مهارة رسم تقني ونمذجة رقمية", "دقة بالتفاصيل"],
-    "skillsToLearnNow": ["تجربة برامج نمذجة معمارية مجانية", "التمرن على الرسم الهندسي الأساسي"],
-    "careers": ["مصمم عمارة رقمية", "مساعد مهندس معماري بالنمذجة"],
-    "relatedMajors": ["architecture-engineering", "interior-design"]
+    "skillsNeeded": [
+      "حس فني وهندسي",
+      "مهارة رسم تقني ونمذجة رقمية",
+      "دقة بالتفاصيل"
+    ],
+    "skillsToLearnNow": [
+      "تجربة برامج نمذجة معمارية مجانية",
+      "التمرن على الرسم الهندسي الأساسي"
+    ],
+    "careers": [
+      "مصمم عمارة رقمية",
+      "مساعد مهندس معماري بالنمذجة"
+    ],
+    "relatedMajors": [
+      "architecture-engineering",
+      "interior-design"
+    ]
   },
   {
     "id": "network-mobile-tech",
     "name": "تكنولوجيا الشبكات والهواتف النقالة",
     "faculty": "كلية الحاسبات وتكنولوجيا المعلومات",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 15 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 15
+      }
     ],
-    "skillsNeeded": ["فضول تقني", "تفكير منطقي بحل المشكلات", "صبر بالتجربة والخطأ"],
-    "skillsToLearnNow": ["تعلم أساسيات الشبكات من مصدر مجاني", "التعرف على أساسيات تطوير تطبيقات الموبايل"],
-    "careers": ["فني/مهندس شبكات", "مطور تطبيقات موبايل مبتدئ"],
-    "relatedMajors": ["computer-science", "mobile-computing"]
+    "skillsNeeded": [
+      "فضول تقني",
+      "تفكير منطقي بحل المشكلات",
+      "صبر بالتجربة والخطأ"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات الشبكات من مصدر مجاني",
+      "التعرف على أساسيات تطوير تطبيقات الموبايل"
+    ],
+    "careers": [
+      "فني/مهندس شبكات",
+      "مطور تطبيقات موبايل مبتدئ"
+    ],
+    "relatedMajors": [
+      "computer-science",
+      "mobile-computing"
+    ]
   },
   {
     "id": "applied-it",
     "name": "تكنولوجيا المعلومات التطبيقية",
     "faculty": "كلية الحاسبات وتكنولوجيا المعلومات",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 15 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 15
+      }
     ],
-    "skillsNeeded": ["فضول تقني", "قدرة على التعلم الذاتي", "تفكير منطقي بحل المشكلات"],
-    "skillsToLearnNow": ["تعلم أساسيات البرمجة من مصدر مجاني", "التعرف على أساسيات الشبكات وقواعد البيانات"],
-    "careers": ["فني دعم تقني", "مطور مبتدئ بأنظمة تطبيقية"],
-    "relatedMajors": ["computer-science", "software-development"]
+    "skillsNeeded": [
+      "فضول تقني",
+      "قدرة على التعلم الذاتي",
+      "تفكير منطقي بحل المشكلات"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات البرمجة من مصدر مجاني",
+      "التعرف على أساسيات الشبكات وقواعد البيانات"
+    ],
+    "careers": [
+      "فني دعم تقني",
+      "مطور مبتدئ بأنظمة تطبيقية"
+    ],
+    "relatedMajors": [
+      "computer-science",
+      "software-development"
+    ]
   },
   {
     "id": "web-mobile-multimedia",
     "name": "الوسائط المتعددة للويب والموبايل",
     "faculty": "كلية الحاسبات وتكنولوجيا المعلومات",
-    "track": ["أدبي"],
+    "track": [
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true, "feePerCreditHour": 18 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
     ],
-    "skillsNeeded": ["حس فني وتصميمي", "أساسيات تقنية جيدة", "إبداع بصري"],
-    "skillsToLearnNow": ["تعلم أساسيات Canva أو Figma", "التعرف على أساسيات تصميم واجهات الويب"],
-    "careers": ["مصمم واجهات ووسائط رقمية", "منتج محتوى رقمي بالويب والموبايل"],
-    "relatedMajors": ["graphic-design", "multimedia"]
+    "skillsNeeded": [
+      "حس فني وتصميمي",
+      "أساسيات تقنية جيدة",
+      "إبداع بصري"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات Canva أو Figma",
+      "التعرف على أساسيات تصميم واجهات الويب"
+    ],
+    "careers": [
+      "مصمم واجهات ووسائط رقمية",
+      "منتج محتوى رقمي بالويب والموبايل"
+    ],
+    "relatedMajors": [
+      "graphic-design",
+      "multimedia"
+    ]
   },
   {
     "id": "software-development",
     "name": "تطوير البرمجيات",
     "faculty": "كلية تكنولوجيا المعلومات",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تفكير منطقي وحل مشكلات", "قدرة على التعلم الذاتي المستمر", "صبر بالتجربة والخطأ"],
-    "skillsToLearnNow": ["تعلم Python أو JavaScript من مصدر مجاني", "بناء أول مشروع برمجي بسيط ورفعه على GitHub"],
-    "careers": ["مطور تطبيقات ويب أو موبايل", "مبرمج مستقل (فريلانس)"],
-    "relatedMajors": ["computer-science", "software-engineering", "web-computing"]
+    "skillsNeeded": [
+      "تفكير منطقي وحل مشكلات",
+      "قدرة على التعلم الذاتي المستمر",
+      "صبر بالتجربة والخطأ"
+    ],
+    "skillsToLearnNow": [
+      "تعلم Python أو JavaScript من مصدر مجاني",
+      "بناء أول مشروع برمجي بسيط ورفعه على GitHub"
+    ],
+    "careers": [
+      "مطور تطبيقات ويب أو موبايل",
+      "مبرمج مستقل (فريلانس)"
+    ],
+    "relatedMajors": [
+      "computer-science",
+      "software-engineering",
+      "web-computing"
+    ]
   },
   {
     "id": "web-computing",
     "name": "حوسبة الويب",
     "faculty": "كلية تكنولوجيا المعلومات",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تفكير منطقي وحل مشكلات", "حس تصميمي بسيط", "قدرة على التعلم الذاتي المستمر"],
-    "skillsToLearnNow": ["تعلم HTML وCSS وJavaScript من مصدر مجاني", "بناء صفحة ويب بسيطة"],
-    "careers": ["مطور مواقع ويب", "مطور واجهات أمامية (Front-end)"],
-    "relatedMajors": ["software-development", "computer-science"]
+    "skillsNeeded": [
+      "تفكير منطقي وحل مشكلات",
+      "حس تصميمي بسيط",
+      "قدرة على التعلم الذاتي المستمر"
+    ],
+    "skillsToLearnNow": [
+      "تعلم HTML وCSS وJavaScript من مصدر مجاني",
+      "بناء صفحة ويب بسيطة"
+    ],
+    "careers": [
+      "مطور مواقع ويب",
+      "مطور واجهات أمامية (Front-end)"
+    ],
+    "relatedMajors": [
+      "software-development",
+      "computer-science"
+    ]
   },
   {
     "id": "multimedia",
     "name": "الوسائط المتعددة",
     "faculty": "كلية تكنولوجيا المعلومات",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 70, "year": 2026, "verified": true },
-      { "university": "جامعة فلسطين", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حس فني وتصميمي", "أساسيات تقنية جيدة", "إبداع بصري وصوتي"],
-    "skillsToLearnNow": ["تعلم أساسيات تصميم وتحرير فيديو مجاناً", "بناء ملف أعمال بسيط (بورتفوليو)"],
-    "careers": ["منتج محتوى وسائط متعددة", "محرر فيديو وصوت"],
-    "relatedMajors": ["web-mobile-multimedia", "digital-media"]
+    "skillsNeeded": [
+      "حس فني وتصميمي",
+      "أساسيات تقنية جيدة",
+      "إبداع بصري وصوتي"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات تصميم وتحرير فيديو مجاناً",
+      "بناء ملف أعمال بسيط (بورتفوليو)"
+    ],
+    "careers": [
+      "منتج محتوى وسائط متعددة",
+      "محرر فيديو وصوت"
+    ],
+    "relatedMajors": [
+      "web-mobile-multimedia",
+      "digital-media"
+    ]
   },
   {
     "id": "mobile-computing",
     "name": "الحوسبة المتنقلة وتطبيقات الأجهزة الذكية",
     "faculty": "كلية تكنولوجيا المعلومات",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تفكير منطقي وحل مشكلات", "فضول تقني", "قدرة على التعلم الذاتي المستمر"],
-    "skillsToLearnNow": ["تعلم أساسيات تطوير تطبيقات موبايل من مصدر مجاني", "تجربة بناء تطبيق بسيط"],
-    "careers": ["مطور تطبيقات موبايل", "مطور أنظمة أجهزة ذكية"],
-    "relatedMajors": ["software-development", "network-mobile-tech"]
+    "skillsNeeded": [
+      "تفكير منطقي وحل مشكلات",
+      "فضول تقني",
+      "قدرة على التعلم الذاتي المستمر"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات تطوير تطبيقات موبايل من مصدر مجاني",
+      "تجربة بناء تطبيق بسيط"
+    ],
+    "careers": [
+      "مطور تطبيقات موبايل",
+      "مطور أنظمة أجهزة ذكية"
+    ],
+    "relatedMajors": [
+      "software-development",
+      "network-mobile-tech"
+    ]
   },
   {
     "id": "management-information-systems",
     "name": "نظم المعلومات الإدارية",
     "faculty": "كلية تكنولوجيا المعلومات",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 70, "competitiveGpa": 75, "year": 2026, "verified": true, "feePerCreditHour": 13 },
-      { "university": "جامعة فلسطين", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 70,
+        "competitiveGpa": 75,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 13
+      },
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تفكير تحليلي بالأنظمة والبيانات", "أساسيات تقنية جيدة", "فهم أساسي لبيئة الأعمال"],
-    "skillsToLearnNow": ["تعلم أساسيات قواعد البيانات وExcel المتقدم", "قراءة عن مفاهيم إدارة المشاريع التقنية"],
-    "careers": ["محلل نظم معلومات بشركة", "منسق مشاريع تقنية"],
-    "relatedMajors": ["accounting", "business-administration", "computer-science"]
+    "skillsNeeded": [
+      "تفكير تحليلي بالأنظمة والبيانات",
+      "أساسيات تقنية جيدة",
+      "فهم أساسي لبيئة الأعمال"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات قواعد البيانات وExcel المتقدم",
+      "قراءة عن مفاهيم إدارة المشاريع التقنية"
+    ],
+    "careers": [
+      "محلل نظم معلومات بشركة",
+      "منسق مشاريع تقنية"
+    ],
+    "relatedMajors": [
+      "accounting",
+      "business-administration",
+      "computer-science"
+    ]
   },
   {
     "id": "chemistry",
     "name": "الكيمياء",
     "faculty": "كلية العلوم",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["دقة بالعمل المخبري", "فهم قوي لمفاهيم الكيمياء", "صبر على التجارب المتكررة"],
-    "skillsToLearnNow": ["مراجعة الكيمياء العضوية وغير العضوية بالتوجيهي", "متابعة تجارب كيميائية مبسطة على يوتيوب"],
-    "careers": ["كيميائي بمختبر أو مصنع", "باحث بمجال الكيمياء", "معلم كيمياء (مع مؤهل تربوي)"],
-    "relatedMajors": ["biochemistry", "chemistry-education", "pharmacy"]
+    "skillsNeeded": [
+      "دقة بالعمل المخبري",
+      "فهم قوي لمفاهيم الكيمياء",
+      "صبر على التجارب المتكررة"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الكيمياء العضوية وغير العضوية بالتوجيهي",
+      "متابعة تجارب كيميائية مبسطة على يوتيوب"
+    ],
+    "careers": [
+      "كيميائي بمختبر أو مصنع",
+      "باحث بمجال الكيمياء",
+      "معلم كيمياء (مع مؤهل تربوي)"
+    ],
+    "relatedMajors": [
+      "biochemistry",
+      "chemistry-education",
+      "pharmacy"
+    ]
   },
   {
     "id": "physics",
     "name": "الفيزياء",
     "faculty": "كلية العلوم",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس رياضي قوي", "تفكير تحليلي ومنطقي", "دقة بالعمل المخبري"],
-    "skillsToLearnNow": ["مراجعة مواد الفيزياء والرياضيات بالتوجيهي", "متابعة شروحات فيزياء مبسطة أونلاين"],
-    "careers": ["باحث بمجال الفيزياء", "فني بمختبر أو مركز أبحاث", "معلم فيزياء (مع مؤهل تربوي)"],
-    "relatedMajors": ["mathematics", "physics-education", "computer-engineering"]
+    "skillsNeeded": [
+      "أساس رياضي قوي",
+      "تفكير تحليلي ومنطقي",
+      "دقة بالعمل المخبري"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة مواد الفيزياء والرياضيات بالتوجيهي",
+      "متابعة شروحات فيزياء مبسطة أونلاين"
+    ],
+    "careers": [
+      "باحث بمجال الفيزياء",
+      "فني بمختبر أو مركز أبحاث",
+      "معلم فيزياء (مع مؤهل تربوي)"
+    ],
+    "relatedMajors": [
+      "mathematics",
+      "physics-education",
+      "computer-engineering"
+    ]
   },
   {
     "id": "biology",
     "name": "الأحياء",
     "faculty": "كلية العلوم",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["دقة بالعمل المخبري", "فهم قوي لمفاهيم الأحياء", "فضول علمي بالكائنات الحية"],
-    "skillsToLearnNow": ["مراجعة مواد الأحياء بالتوجيهي", "متابعة قنوات علمية عن الأحياء"],
-    "careers": ["باحث بمجال الأحياء", "فني مختبر تحاليل", "معلم أحياء (مع مؤهل تربوي)"],
-    "relatedMajors": ["biotechnology", "medical-lab-sciences", "biology-education"]
+    "skillsNeeded": [
+      "دقة بالعمل المخبري",
+      "فهم قوي لمفاهيم الأحياء",
+      "فضول علمي بالكائنات الحية"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة مواد الأحياء بالتوجيهي",
+      "متابعة قنوات علمية عن الأحياء"
+    ],
+    "careers": [
+      "باحث بمجال الأحياء",
+      "فني مختبر تحاليل",
+      "معلم أحياء (مع مؤهل تربوي)"
+    ],
+    "relatedMajors": [
+      "biotechnology",
+      "medical-lab-sciences",
+      "biology-education"
+    ]
   },
   {
     "id": "mathematics",
     "name": "الرياضيات",
     "faculty": "كلية العلوم",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 10 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 10
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس رياضي قوي", "تفكير تحليلي ومنطقي", "صبر على حل المسائل المعقدة"],
-    "skillsToLearnNow": ["حل تمارين رياضيات متقدمة إضافية", "التعرف على أساسيات البرمجة كأداة مساعدة"],
-    "careers": ["محلل بيانات ورياضيات مالية", "معلم رياضيات (مع مؤهل تربوي)", "باحث رياضيات"],
-    "relatedMajors": ["physics", "math-teaching", "computer-science"]
+    "skillsNeeded": [
+      "أساس رياضي قوي",
+      "تفكير تحليلي ومنطقي",
+      "صبر على حل المسائل المعقدة"
+    ],
+    "skillsToLearnNow": [
+      "حل تمارين رياضيات متقدمة إضافية",
+      "التعرف على أساسيات البرمجة كأداة مساعدة"
+    ],
+    "careers": [
+      "محلل بيانات ورياضيات مالية",
+      "معلم رياضيات (مع مؤهل تربوي)",
+      "باحث رياضيات"
+    ],
+    "relatedMajors": [
+      "physics",
+      "math-teaching",
+      "computer-science"
+    ]
   },
   {
     "id": "earth-environmental-science",
     "name": "علوم الأرض والبيئة",
     "faculty": "كلية العلوم",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["فضول علمي بالطبيعة والبيئة", "دقة بالعمل الميداني والمخبري", "تفكير تحليلي"],
-    "skillsToLearnNow": ["قراءة عن قضايا بيئية محلية", "متابعة محتوى علمي عن علوم الأرض"],
-    "careers": ["باحث بيئي", "موظف بمؤسسة حماية بيئة", "فني بمختبر تحليل بيئي"],
-    "relatedMajors": ["biology", "chemistry"]
+    "skillsNeeded": [
+      "فضول علمي بالطبيعة والبيئة",
+      "دقة بالعمل الميداني والمخبري",
+      "تفكير تحليلي"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن قضايا بيئية محلية",
+      "متابعة محتوى علمي عن علوم الأرض"
+    ],
+    "careers": [
+      "باحث بيئي",
+      "موظف بمؤسسة حماية بيئة",
+      "فني بمختبر تحليل بيئي"
+    ],
+    "relatedMajors": [
+      "biology",
+      "chemistry"
+    ]
   },
   {
     "id": "biochemistry",
     "name": "الكيمياء الحيوية",
     "faculty": "كلية العلوم",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["دقة بالعمل المخبري", "فهم قوي لمفاهيم الكيمياء والأحياء", "صبر على التجارب المتكررة"],
-    "skillsToLearnNow": ["مراجعة الكيمياء والأحياء بالتوجيهي", "متابعة محتوى علمي عن الكيمياء الحيوية"],
-    "careers": ["باحث بمختبرات طبية أو دوائية", "فني تحاليل متخصص"],
-    "relatedMajors": ["chemistry", "biotechnology", "medical-lab-sciences"]
+    "skillsNeeded": [
+      "دقة بالعمل المخبري",
+      "فهم قوي لمفاهيم الكيمياء والأحياء",
+      "صبر على التجارب المتكررة"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الكيمياء والأحياء بالتوجيهي",
+      "متابعة محتوى علمي عن الكيمياء الحيوية"
+    ],
+    "careers": [
+      "باحث بمختبرات طبية أو دوائية",
+      "فني تحاليل متخصص"
+    ],
+    "relatedMajors": [
+      "chemistry",
+      "biotechnology",
+      "medical-lab-sciences"
+    ]
   },
   {
     "id": "biotechnology",
     "name": "التكنولوجيا الحيوية",
     "faculty": "كلية العلوم",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["دقة بالعمل المخبري", "فهم قوي لمفاهيم الأحياء والكيمياء", "فضول علمي وابتكاري"],
-    "skillsToLearnNow": ["مراجعة الأحياء والكيمياء بالتوجيهي", "قراءة عن تطبيقات التكنولوجيا الحيوية الحديثة"],
-    "careers": ["باحث بمجال التكنولوجيا الحيوية", "فني مختبر أبحاث حيوية"],
-    "relatedMajors": ["biology", "biochemistry"]
+    "skillsNeeded": [
+      "دقة بالعمل المخبري",
+      "فهم قوي لمفاهيم الأحياء والكيمياء",
+      "فضول علمي وابتكاري"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الأحياء والكيمياء بالتوجيهي",
+      "قراءة عن تطبيقات التكنولوجيا الحيوية الحديثة"
+    ],
+    "careers": [
+      "باحث بمجال التكنولوجيا الحيوية",
+      "فني مختبر أبحاث حيوية"
+    ],
+    "relatedMajors": [
+      "biology",
+      "biochemistry"
+    ]
   },
   {
     "id": "medical-lab-sciences",
     "name": "العلوم الطبية المخبرية",
     "faculty": "كلية العلوم الطبية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 75, "competitiveGpa": 80, "year": 2026, "verified": true, "feePerCreditHour": 15 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 75,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 15
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["دقة عالية بالعمل المخبري", "قدرة على التركيز بالتفاصيل", "أمانة ومسؤولية"],
-    "skillsToLearnNow": ["مراجعة الأحياء والكيمياء بالتوجيهي", "قراءة عن أساسيات التحاليل الطبية"],
-    "careers": ["فني مختبر طبي بمستشفى", "أخصائي تحاليل بمختبر خاص"],
-    "relatedMajors": ["biology", "biochemistry", "nursing"]
+    "skillsNeeded": [
+      "دقة عالية بالعمل المخبري",
+      "قدرة على التركيز بالتفاصيل",
+      "أمانة ومسؤولية"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الأحياء والكيمياء بالتوجيهي",
+      "قراءة عن أساسيات التحاليل الطبية"
+    ],
+    "careers": [
+      "فني مختبر طبي بمستشفى",
+      "أخصائي تحاليل بمختبر خاص"
+    ],
+    "relatedMajors": [
+      "biology",
+      "biochemistry",
+      "nursing"
+    ]
   },
   {
     "id": "occupational-therapy",
     "name": "العلاج الوظيفي",
     "faculty": "كلية العلوم الطبية",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true, "feePerCreditHour": 15 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 15
+      }
     ],
-    "skillsNeeded": ["صبر وتعاطف مع المرضى", "مهارة تواصل جيدة", "لياقة بدنية جيدة"],
-    "skillsToLearnNow": ["قراءة عن مجال العلاج الوظيفي وإعادة التأهيل", "التطوع بمراكز رعاية أو تأهيل"],
-    "careers": ["أخصائي علاج وظيفي بمستشفى", "أخصائي تأهيل بمركز رعاية"],
-    "relatedMajors": ["physical-therapy", "nursing"]
+    "skillsNeeded": [
+      "صبر وتعاطف مع المرضى",
+      "مهارة تواصل جيدة",
+      "لياقة بدنية جيدة"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن مجال العلاج الوظيفي وإعادة التأهيل",
+      "التطوع بمراكز رعاية أو تأهيل"
+    ],
+    "careers": [
+      "أخصائي علاج وظيفي بمستشفى",
+      "أخصائي تأهيل بمركز رعاية"
+    ],
+    "relatedMajors": [
+      "physical-therapy",
+      "nursing"
+    ]
   },
   {
     "id": "physical-therapy",
     "name": "العلاج الطبيعي",
     "faculty": "كلية العلوم الطبية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["لياقة بدنية جيدة", "صبر وتعاطف مع المرضى", "دقة بمتابعة برامج العلاج"],
-    "skillsToLearnNow": ["قراءة عن تشريح الجسم وحركته", "التطوع بمراكز علاج طبيعي"],
-    "careers": ["أخصائي علاج طبيعي بمستشفى", "أخصائي علاج طبيعي رياضي"],
-    "relatedMajors": ["occupational-therapy", "nursing"]
+    "skillsNeeded": [
+      "لياقة بدنية جيدة",
+      "صبر وتعاطف مع المرضى",
+      "دقة بمتابعة برامج العلاج"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن تشريح الجسم وحركته",
+      "التطوع بمراكز علاج طبيعي"
+    ],
+    "careers": [
+      "أخصائي علاج طبيعي بمستشفى",
+      "أخصائي علاج طبيعي رياضي"
+    ],
+    "relatedMajors": [
+      "occupational-therapy",
+      "nursing"
+    ]
   },
   {
     "id": "optics",
     "name": "البصريات",
     "faculty": "كلية العلوم الطبية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["دقة بالفحص والقياس", "مهارة تواصل مع المرضى", "صبر بالتفاصيل"],
-    "skillsToLearnNow": ["قراءة عن أساسيات فحص النظر", "التطوع أو الزيارة الميدانية لمراكز بصريات"],
-    "careers": ["أخصائي بصريات بمركز نظارات", "فني عدسات لاصقة"],
-    "relatedMajors": ["medical-lab-sciences", "nursing"]
+    "skillsNeeded": [
+      "دقة بالفحص والقياس",
+      "مهارة تواصل مع المرضى",
+      "صبر بالتفاصيل"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساسيات فحص النظر",
+      "التطوع أو الزيارة الميدانية لمراكز بصريات"
+    ],
+    "careers": [
+      "أخصائي بصريات بمركز نظارات",
+      "فني عدسات لاصقة"
+    ],
+    "relatedMajors": [
+      "medical-lab-sciences",
+      "nursing"
+    ]
   },
   {
     "id": "medical-imaging-tech",
     "name": "تقنيات التصوير الطبي",
     "faculty": "كلية العلوم الطبية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["دقة بتشغيل الأجهزة الطبية", "قدرة على التركيز", "تعامل جيد مع المرضى"],
-    "skillsToLearnNow": ["قراءة عن أساسيات الأشعة والتصوير الطبي", "مراجعة أساسيات الفيزياء الطبية"],
-    "careers": ["فني أشعة بمستشفى", "فني تصوير طبي بمركز تشخيص"],
-    "relatedMajors": ["medical-lab-sciences", "nursing"]
+    "skillsNeeded": [
+      "دقة بتشغيل الأجهزة الطبية",
+      "قدرة على التركيز",
+      "تعامل جيد مع المرضى"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساسيات الأشعة والتصوير الطبي",
+      "مراجعة أساسيات الفيزياء الطبية"
+    ],
+    "careers": [
+      "فني أشعة بمستشفى",
+      "فني تصوير طبي بمركز تشخيص"
+    ],
+    "relatedMajors": [
+      "medical-lab-sciences",
+      "nursing"
+    ]
   },
   {
     "id": "clinical-nutrition",
     "name": "التغذية السريرية",
     "faculty": "كلية العلوم الطبية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["فهم علمي بالتغذية وجسم الإنسان", "مهارة تواصل مع المرضى", "دقة بوضع خطط غذائية"],
-    "skillsToLearnNow": ["قراءة عن أساسيات التغذية العلاجية", "متابعة محتوى موثوق عن التغذية"],
-    "careers": ["أخصائي تغذية سريرية بمستشفى", "استشاري تغذية بعيادة خاصة"],
-    "relatedMajors": ["health-nutrition", "nursing"]
+    "skillsNeeded": [
+      "فهم علمي بالتغذية وجسم الإنسان",
+      "مهارة تواصل مع المرضى",
+      "دقة بوضع خطط غذائية"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساسيات التغذية العلاجية",
+      "متابعة محتوى موثوق عن التغذية"
+    ],
+    "careers": [
+      "أخصائي تغذية سريرية بمستشفى",
+      "استشاري تغذية بعيادة خاصة"
+    ],
+    "relatedMajors": [
+      "health-nutrition",
+      "nursing"
+    ]
   },
   {
     "id": "health-nutrition",
     "name": "التغذية الصحية",
     "faculty": "كلية العلوم الطبية والصحية",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 70, "competitiveGpa": 70, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["فهم علمي بالتغذية وجسم الإنسان", "مهارة تواصل وتوعية", "تنظيم وتخطيط"],
-    "skillsToLearnNow": ["قراءة عن أساسيات التغذية الصحية", "متابعة محتوى موثوق عن التغذية"],
-    "careers": ["أخصائي تغذية بمركز صحي", "مستشار تغذية ولياقة"],
-    "relatedMajors": ["clinical-nutrition", "nursing"]
+    "skillsNeeded": [
+      "فهم علمي بالتغذية وجسم الإنسان",
+      "مهارة تواصل وتوعية",
+      "تنظيم وتخطيط"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساسيات التغذية الصحية",
+      "متابعة محتوى موثوق عن التغذية"
+    ],
+    "careers": [
+      "أخصائي تغذية بمركز صحي",
+      "مستشار تغذية ولياقة"
+    ],
+    "relatedMajors": [
+      "clinical-nutrition",
+      "nursing"
+    ]
   },
   {
     "id": "midwifery",
     "name": "القبالة",
     "faculty": "كلية العلوم الصحية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 70, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 70,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تخصص متاح للطالبات فقط حسب بيانات الجامعة الإسلامية", "صبر وتعاطف مع الحوامل والأمهات", "هدوء أعصاب بالمواقف الطارئة"],
-    "skillsToLearnNow": ["قراءة عن مراحل الحمل والولادة الأساسية", "حضور دورة إسعافات أولية"],
-    "careers": ["قابلة بمستشفى أو مركز أمومة", "قابلة برعاية منزلية"],
-    "relatedMajors": ["nursing", "medicine"]
+    "skillsNeeded": [
+      "تخصص متاح للطالبات فقط حسب بيانات الجامعة الإسلامية",
+      "صبر وتعاطف مع الحوامل والأمهات",
+      "هدوء أعصاب بالمواقف الطارئة"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن مراحل الحمل والولادة الأساسية",
+      "حضور دورة إسعافات أولية"
+    ],
+    "careers": [
+      "قابلة بمستشفى أو مركز أمومة",
+      "قابلة برعاية منزلية"
+    ],
+    "relatedMajors": [
+      "nursing",
+      "medicine"
+    ]
   },
   {
     "id": "civil-engineering",
     "name": "الهندسة المدنية",
     "faculty": "كلية الهندسة",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true },
-      { "university": "جامعة فلسطين", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس رياضي وفيزيائي قوي", "دقة بالحسابات الإنشائية", "تفكير هندسي تحليلي"],
-    "skillsToLearnNow": ["مراجعة الرياضيات والفيزياء بالتوجيهي", "التعرف على أساسيات برامج الرسم الهندسي"],
-    "careers": ["مهندس مواقع إنشائية", "مهندس تصميم إنشائي بمكتب هندسي"],
-    "relatedMajors": ["architecture-engineering", "computer-engineering"]
+    "skillsNeeded": [
+      "أساس رياضي وفيزيائي قوي",
+      "دقة بالحسابات الإنشائية",
+      "تفكير هندسي تحليلي"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الرياضيات والفيزياء بالتوجيهي",
+      "التعرف على أساسيات برامج الرسم الهندسي"
+    ],
+    "careers": [
+      "مهندس مواقع إنشائية",
+      "مهندس تصميم إنشائي بمكتب هندسي"
+    ],
+    "relatedMajors": [
+      "architecture-engineering",
+      "computer-engineering"
+    ]
   },
   {
     "id": "architecture-engineering",
     "name": "الهندسة المعمارية",
     "faculty": "كلية الهندسة",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true },
-      { "university": "جامعة فلسطين", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حس فني وهندسي", "مهارة رسم تقني ونمذجة", "إبداع بالتصميم المكاني"],
-    "skillsToLearnNow": ["تجربة برامج نمذجة معمارية مجانية", "بناء ملف أعمال بسيط (بورتفوليو)"],
-    "careers": ["مهندس معماري بمكتب تصميم", "مصمم داخلي ومعماري مستقل"],
-    "relatedMajors": ["civil-engineering", "interior-design", "digital-architecture-engineering"]
+    "skillsNeeded": [
+      "حس فني وهندسي",
+      "مهارة رسم تقني ونمذجة",
+      "إبداع بالتصميم المكاني"
+    ],
+    "skillsToLearnNow": [
+      "تجربة برامج نمذجة معمارية مجانية",
+      "بناء ملف أعمال بسيط (بورتفوليو)"
+    ],
+    "careers": [
+      "مهندس معماري بمكتب تصميم",
+      "مصمم داخلي ومعماري مستقل"
+    ],
+    "relatedMajors": [
+      "civil-engineering",
+      "interior-design",
+      "digital-architecture-engineering"
+    ]
   },
   {
     "id": "industrial-engineering",
     "name": "الهندسة الصناعية",
     "faculty": "كلية الهندسة",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "5 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس رياضي قوي", "تفكير تحليلي بتحسين العمليات", "مهارة تنظيم وإدارة"],
-    "skillsToLearnNow": ["مراجعة الرياضيات والفيزياء بالتوجيهي", "قراءة عن أساسيات إدارة الإنتاج"],
-    "careers": ["مهندس إنتاج بمصنع", "مهندس تحسين عمليات"],
-    "relatedMajors": ["mechanical-engineering", "electrical-engineering"]
+    "skillsNeeded": [
+      "أساس رياضي قوي",
+      "تفكير تحليلي بتحسين العمليات",
+      "مهارة تنظيم وإدارة"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الرياضيات والفيزياء بالتوجيهي",
+      "قراءة عن أساسيات إدارة الإنتاج"
+    ],
+    "careers": [
+      "مهندس إنتاج بمصنع",
+      "مهندس تحسين عمليات"
+    ],
+    "relatedMajors": [
+      "mechanical-engineering",
+      "electrical-engineering"
+    ]
   },
   {
     "id": "electrical-engineering",
     "name": "الهندسة الكهربائية",
     "faculty": "كلية الهندسة",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "5 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس رياضي وفيزيائي قوي", "فهم للدارات الكهربائية", "تفكير هندسي تحليلي"],
-    "skillsToLearnNow": ["مراجعة الفيزياء والرياضيات بالتوجيهي", "أخذ مقدمة بالإلكترونيات من مصادر مجانية"],
-    "careers": ["مهندس كهرباء بمشاريع أو مصانع", "مهندس صيانة أنظمة كهربائية"],
-    "relatedMajors": ["computer-engineering", "mechanical-engineering"]
+    "skillsNeeded": [
+      "أساس رياضي وفيزيائي قوي",
+      "فهم للدارات الكهربائية",
+      "تفكير هندسي تحليلي"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الفيزياء والرياضيات بالتوجيهي",
+      "أخذ مقدمة بالإلكترونيات من مصادر مجانية"
+    ],
+    "careers": [
+      "مهندس كهرباء بمشاريع أو مصانع",
+      "مهندس صيانة أنظمة كهربائية"
+    ],
+    "relatedMajors": [
+      "computer-engineering",
+      "mechanical-engineering"
+    ]
   },
   {
     "id": "environmental-engineering",
     "name": "الهندسة البيئية",
     "faculty": "كلية الهندسة",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "5 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس رياضي وعلمي قوي", "فهم لقضايا البيئة والاستدامة", "تفكير هندسي تحليلي"],
-    "skillsToLearnNow": ["مراجعة الرياضيات والفيزياء والكيمياء بالتوجيهي", "قراءة عن قضايا بيئية محلية"],
-    "careers": ["مهندس بيئي بمشاريع مياه وصرف صحي", "مستشار استدامة بيئية"],
-    "relatedMajors": ["civil-engineering", "earth-environmental-science"]
+    "skillsNeeded": [
+      "أساس رياضي وعلمي قوي",
+      "فهم لقضايا البيئة والاستدامة",
+      "تفكير هندسي تحليلي"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الرياضيات والفيزياء والكيمياء بالتوجيهي",
+      "قراءة عن قضايا بيئية محلية"
+    ],
+    "careers": [
+      "مهندس بيئي بمشاريع مياه وصرف صحي",
+      "مستشار استدامة بيئية"
+    ],
+    "relatedMajors": [
+      "civil-engineering",
+      "earth-environmental-science"
+    ]
   },
   {
     "id": "mechanical-engineering",
     "name": "الهندسة الميكانيكية",
     "faculty": "كلية الهندسة",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "5 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس رياضي وفيزيائي قوي", "فهم ميكانيكي وتحليلي", "مهارة رسم تقني"],
-    "skillsToLearnNow": ["مراجعة الفيزياء والرياضيات بالتوجيهي", "التعرف على أساسيات برامج التصميم الميكانيكي"],
-    "careers": ["مهندس تصميم ميكانيكي", "مهندس صيانة أنظمة ميكانيكية"],
-    "relatedMajors": ["industrial-engineering", "electrical-engineering"]
+    "skillsNeeded": [
+      "أساس رياضي وفيزيائي قوي",
+      "فهم ميكانيكي وتحليلي",
+      "مهارة رسم تقني"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الفيزياء والرياضيات بالتوجيهي",
+      "التعرف على أساسيات برامج التصميم الميكانيكي"
+    ],
+    "careers": [
+      "مهندس تصميم ميكانيكي",
+      "مهندس صيانة أنظمة ميكانيكية"
+    ],
+    "relatedMajors": [
+      "industrial-engineering",
+      "electrical-engineering"
+    ]
   },
   {
     "id": "smart-systems-engineering",
     "name": "هندسة النظم الذكية",
     "faculty": "كلية الهندسة",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "5 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساس رياضي وبرمجي قوي", "تفكير هندسي تحليلي", "فضول تقني بالأنظمة الذكية"],
-    "skillsToLearnNow": ["تعلم أساسيات البرمجة والإلكترونيات", "قراءة عن أنظمة التحكم والاستشعار"],
-    "careers": ["مهندس أنظمة ذكية وأتمتة", "مهندس أنظمة تحكم"],
-    "relatedMajors": ["computer-engineering", "ai-engineering"]
+    "skillsNeeded": [
+      "أساس رياضي وبرمجي قوي",
+      "تفكير هندسي تحليلي",
+      "فضول تقني بالأنظمة الذكية"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات البرمجة والإلكترونيات",
+      "قراءة عن أنظمة التحكم والاستشعار"
+    ],
+    "careers": [
+      "مهندس أنظمة ذكية وأتمتة",
+      "مهندس أنظمة تحكم"
+    ],
+    "relatedMajors": [
+      "computer-engineering",
+      "ai-engineering"
+    ]
   },
   {
     "id": "software-engineering",
     "name": "هندسة البرمجيات",
     "faculty": "كلية هندسة البرمجيات والذكاء الاصطناعي",
-    "track": ["علمي"],
+    "track": [
+      "علمي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 80, "competitiveGpa": 80, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تفكير منطقي وحل مشكلات معقدة", "أساس رياضي قوي", "قدرة على العمل بمشاريع برمجية كبيرة"],
-    "skillsToLearnNow": ["تعلم لغة برمجة أساسية وممارسة مشاريع صغيرة", "التعرف على أساسيات هندسة البرمجيات وإدارة المشاريع"],
-    "careers": ["مهندس برمجيات بشركة تقنية", "قائد فريق تطوير برمجي"],
-    "relatedMajors": ["computer-science", "ai-engineering", "software-development"]
+    "skillsNeeded": [
+      "تفكير منطقي وحل مشكلات معقدة",
+      "أساس رياضي قوي",
+      "قدرة على العمل بمشاريع برمجية كبيرة"
+    ],
+    "skillsToLearnNow": [
+      "تعلم لغة برمجة أساسية وممارسة مشاريع صغيرة",
+      "التعرف على أساسيات هندسة البرمجيات وإدارة المشاريع"
+    ],
+    "careers": [
+      "مهندس برمجيات بشركة تقنية",
+      "قائد فريق تطوير برمجي"
+    ],
+    "relatedMajors": [
+      "computer-science",
+      "ai-engineering",
+      "software-development"
+    ]
   },
   {
     "id": "economics-political-science",
     "name": "الاقتصاد والعلوم السياسية",
     "faculty": "كلية الاقتصاد والعلوم الإدارية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["فهم تحليلي للأحداث الاقتصادية والسياسية", "مهارة كتابة وتحليل", "قدرة على النقاش المنطقي"],
-    "skillsToLearnNow": ["متابعة أخبار اقتصادية وسياسية موثوقة", "قراءة مقدمات بعلم الاقتصاد"],
-    "careers": ["محلل اقتصادي أو سياسي", "باحث بمركز دراسات"],
-    "relatedMajors": ["business-administration", "digital-economy-fintech"]
+    "skillsNeeded": [
+      "فهم تحليلي للأحداث الاقتصادية والسياسية",
+      "مهارة كتابة وتحليل",
+      "قدرة على النقاش المنطقي"
+    ],
+    "skillsToLearnNow": [
+      "متابعة أخبار اقتصادية وسياسية موثوقة",
+      "قراءة مقدمات بعلم الاقتصاد"
+    ],
+    "careers": [
+      "محلل اقتصادي أو سياسي",
+      "باحث بمركز دراسات"
+    ],
+    "relatedMajors": [
+      "business-administration",
+      "digital-economy-fintech"
+    ]
   },
   {
     "id": "digital-economy-fintech",
     "name": "الاقتصاد الرقمي وتكنولوجيا المال",
     "faculty": "كلية الاقتصاد والعلوم الإدارية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["فهم مالي واقتصادي أساسي", "فضول تقني بالتكنولوجيا المالية", "تفكير تحليلي"],
-    "skillsToLearnNow": ["قراءة عن أساسيات التكنولوجيا المالية Fintech", "تعلم أساسيات Excel والتحليل المالي"],
-    "careers": ["محلل تكنولوجيا مالية", "موظف بشركة مدفوعات أو بنك رقمي"],
-    "relatedMajors": ["accounting", "economics-political-science"]
+    "skillsNeeded": [
+      "فهم مالي واقتصادي أساسي",
+      "فضول تقني بالتكنولوجيا المالية",
+      "تفكير تحليلي"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساسيات التكنولوجيا المالية Fintech",
+      "تعلم أساسيات Excel والتحليل المالي"
+    ],
+    "careers": [
+      "محلل تكنولوجيا مالية",
+      "موظف بشركة مدفوعات أو بنك رقمي"
+    ],
+    "relatedMajors": [
+      "accounting",
+      "economics-political-science"
+    ]
   },
   {
     "id": "broadcasting",
     "name": "الإذاعة والتلفزيون",
     "faculty": "كلية الإعلام",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 12 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 12
+      }
     ],
-    "skillsNeeded": ["مهارة تواصل وإلقاء", "ثقة بالظهور أمام الكاميرا أو المايك", "فضول إعلامي"],
-    "skillsToLearnNow": ["التمرن على الإلقاء والتقديم", "تجربة تسجيل وتحرير مقاطع بسيطة"],
-    "careers": ["مذيع بمحطة إذاعة أو تلفزيون", "منتج برامج إعلامية"],
-    "relatedMajors": ["journalism", "public-relations"]
+    "skillsNeeded": [
+      "مهارة تواصل وإلقاء",
+      "ثقة بالظهور أمام الكاميرا أو المايك",
+      "فضول إعلامي"
+    ],
+    "skillsToLearnNow": [
+      "التمرن على الإلقاء والتقديم",
+      "تجربة تسجيل وتحرير مقاطع بسيطة"
+    ],
+    "careers": [
+      "مذيع بمحطة إذاعة أو تلفزيون",
+      "منتج برامج إعلامية"
+    ],
+    "relatedMajors": [
+      "journalism",
+      "public-relations"
+    ]
   },
   {
     "id": "public-relations",
     "name": "العلاقات العامة",
     "faculty": "كلية الإعلام",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 12 }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 12
+      }
     ],
-    "skillsNeeded": ["مهارة تواصل وبناء علاقات", "ثقة بالنفس بالتعامل مع الجمهور", "تنظيم وتخطيط فعاليات"],
-    "skillsToLearnNow": ["التمرن على الكتابة الإعلامية والتقديم", "قراءة عن أساسيات التسويق والعلاقات العامة"],
-    "careers": ["مسؤول علاقات عامة بمؤسسة", "منسق فعاليات وحملات إعلامية"],
-    "relatedMajors": ["digital-marketing", "broadcasting"]
+    "skillsNeeded": [
+      "مهارة تواصل وبناء علاقات",
+      "ثقة بالنفس بالتعامل مع الجمهور",
+      "تنظيم وتخطيط فعاليات"
+    ],
+    "skillsToLearnNow": [
+      "التمرن على الكتابة الإعلامية والتقديم",
+      "قراءة عن أساسيات التسويق والعلاقات العامة"
+    ],
+    "careers": [
+      "مسؤول علاقات عامة بمؤسسة",
+      "منسق فعاليات وحملات إعلامية"
+    ],
+    "relatedMajors": [
+      "digital-marketing",
+      "broadcasting"
+    ]
   },
   {
     "id": "journalism",
     "name": "الصحافة",
     "faculty": "كلية الإعلام",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة الأقصى", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true, "feePerCreditHour": 12 },
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة الأقصى",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 12
+      },
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["مهارة كتابة صحفية", "فضول وحس تحقيقي بالأخبار", "قدرة على العمل تحت ضغط الوقت"],
-    "skillsToLearnNow": ["كتابة مقالات ومنشورات إخبارية بسيطة", "متابعة مصادر إخبارية موثوقة"],
-    "careers": ["صحفي بمؤسسة إعلامية", "محرر أخبار", "صانع محتوى إخباري مستقل"],
-    "relatedMajors": ["digital-media", "arabic-literature"]
+    "skillsNeeded": [
+      "مهارة كتابة صحفية",
+      "فضول وحس تحقيقي بالأخبار",
+      "قدرة على العمل تحت ضغط الوقت"
+    ],
+    "skillsToLearnNow": [
+      "كتابة مقالات ومنشورات إخبارية بسيطة",
+      "متابعة مصادر إخبارية موثوقة"
+    ],
+    "careers": [
+      "صحفي بمؤسسة إعلامية",
+      "محرر أخبار",
+      "صانع محتوى إخباري مستقل"
+    ],
+    "relatedMajors": [
+      "digital-media",
+      "arabic-literature"
+    ]
   },
   {
     "id": "digital-marketing",
     "name": "التسويق الرقمي",
     "faculty": "كلية العلوم الرقمية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حس تسويقي وإبداعي", "أساسيات تقنية جيدة", "مهارة تحليل بيانات بسيطة"],
-    "skillsToLearnNow": ["دورة مجانية بأساسيات التسويق الرقمي (Google Digital Garage)", "تجربة إدارة صفحة تواصل اجتماعي بسيطة"],
-    "careers": ["مسؤول تسويق رقمي بشركة", "مدير محتوى وسائل تواصل اجتماعي"],
-    "relatedMajors": ["digital-media", "public-relations"]
+    "skillsNeeded": [
+      "حس تسويقي وإبداعي",
+      "أساسيات تقنية جيدة",
+      "مهارة تحليل بيانات بسيطة"
+    ],
+    "skillsToLearnNow": [
+      "دورة مجانية بأساسيات التسويق الرقمي (Google Digital Garage)",
+      "تجربة إدارة صفحة تواصل اجتماعي بسيطة"
+    ],
+    "careers": [
+      "مسؤول تسويق رقمي بشركة",
+      "مدير محتوى وسائل تواصل اجتماعي"
+    ],
+    "relatedMajors": [
+      "digital-media",
+      "public-relations"
+    ]
   },
   {
     "id": "digital-media",
     "name": "الإعلام الرقمي",
     "faculty": "كلية العلوم الرقمية",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حس إعلامي وتصميمي", "أساسيات تقنية جيدة", "مهارة كتابة محتوى رقمي"],
-    "skillsToLearnNow": ["تجربة إنشاء محتوى رقمي بسيط (فيديو أو منشورات)", "متابعة منصات إعلام رقمي ناجحة"],
-    "careers": ["صانع محتوى رقمي", "مدير منصات إعلامية رقمية"],
-    "relatedMajors": ["digital-marketing", "journalism", "graphic-design"]
+    "skillsNeeded": [
+      "حس إعلامي وتصميمي",
+      "أساسيات تقنية جيدة",
+      "مهارة كتابة محتوى رقمي"
+    ],
+    "skillsToLearnNow": [
+      "تجربة إنشاء محتوى رقمي بسيط (فيديو أو منشورات)",
+      "متابعة منصات إعلام رقمي ناجحة"
+    ],
+    "careers": [
+      "صانع محتوى رقمي",
+      "مدير منصات إعلامية رقمية"
+    ],
+    "relatedMajors": [
+      "digital-marketing",
+      "journalism",
+      "graphic-design"
+    ]
   },
   {
     "id": "it-diploma",
     "name": "تكنولوجيا المعلومات (دبلوم)",
     "faculty": "دبلوم متوسط",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "سنتين (دبلوم)",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 50, "competitiveGpa": 50, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 50,
+        "competitiveGpa": 50,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["أساسيات حاسوب وتسويق إلكتروني", "فضول تقني"],
-    "skillsToLearnNow": ["تعلم أساسيات التسويق الإلكتروني ووسائل التواصل"],
-    "careers": ["منفذ تسويق إلكتروني", "فني وسائط متعددة مبتدئ"],
-    "relatedMajors": ["digital-marketing", "applied-it"]
+    "skillsNeeded": [
+      "أساسيات حاسوب وتسويق إلكتروني",
+      "فضول تقني"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات التسويق الإلكتروني ووسائل التواصل"
+    ],
+    "careers": [
+      "منفذ تسويق إلكتروني",
+      "فني وسائط متعددة مبتدئ"
+    ],
+    "relatedMajors": [
+      "digital-marketing",
+      "applied-it"
+    ]
   },
   {
     "id": "admin-legal-diploma",
     "name": "العلوم الإدارية والقانونية (دبلوم)",
     "faculty": "دبلوم متوسط",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "سنتين (دبلوم)",
     "admission": [
-      { "university": "جامعة فلسطين", "minGpa": 50, "competitiveGpa": 50, "year": 2026, "verified": true }
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 50,
+        "competitiveGpa": 50,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["تنظيم وترتيب", "دقة بالتعامل مع المستندات والأرقام"],
-    "skillsToLearnNow": ["تعلم أساسيات Excel والأرشفة المكتبية"],
-    "careers": ["سكرتير/ة طبي أو قانوني", "موظف إدارة مكاتب"],
-    "relatedMajors": ["accounting", "law"]
+    "skillsNeeded": [
+      "تنظيم وترتيب",
+      "دقة بالتعامل مع المستندات والأرقام"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات Excel والأرشفة المكتبية"
+    ],
+    "careers": [
+      "سكرتير/ة طبي أو قانوني",
+      "موظف إدارة مكاتب"
+    ],
+    "relatedMajors": [
+      "accounting",
+      "law"
+    ]
   },
   {
     "id": "islamic-sharia",
     "name": "الشريعة الإسلامية",
     "faculty": "كلية الشريعة والقانون",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حفظ وفهم للنصوص الشرعية", "تفكير تحليلي بالأحكام", "أمانة والتزام أخلاقي"],
-    "skillsToLearnNow": ["مراجعة مبادئ الفقه والتفسير", "حفظ أجزاء من القرآن الكريم"],
-    "careers": ["إمام أو خطيب", "قاضٍ شرعي (بعد سنوات خبرة)", "مدرس تربية إسلامية"],
-    "relatedMajors": ["islamic-studies-education", "usul-al-din", "sharia-and-law"]
+    "skillsNeeded": [
+      "حفظ وفهم للنصوص الشرعية",
+      "تفكير تحليلي بالأحكام",
+      "أمانة والتزام أخلاقي"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة مبادئ الفقه والتفسير",
+      "حفظ أجزاء من القرآن الكريم"
+    ],
+    "careers": [
+      "إمام أو خطيب",
+      "قاضٍ شرعي (بعد سنوات خبرة)",
+      "مدرس تربية إسلامية"
+    ],
+    "relatedMajors": [
+      "islamic-studies-education",
+      "usul-al-din",
+      "sharia-and-law"
+    ]
   },
   {
     "id": "sharia-and-law",
     "name": "الشريعة والقانون",
     "faculty": "كلية الشريعة والقانون",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 75, "competitiveGpa": 75, "year": 2026, "verified": true },
-      { "university": "جامعة الأزهر", "minGpa": 75, "competitiveGpa": 75, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 75,
+        "competitiveGpa": 75,
+        "year": 2026,
+        "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 75,
+        "competitiveGpa": 75,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حفظ وفهم للأحكام الشرعية والقانونية", "مهارة كتابة وصياغة", "تفكير منطقي وتحليل نصوص"],
-    "skillsToLearnNow": ["قراءة عن مبادئ الفقه والقانون معاً", "متابعة نقاشات ومناظرات لتقوية الإقناع"],
-    "careers": ["محامي شرعي وقانوني", "مستشار بمحاكم شرعية"],
-    "relatedMajors": ["law", "islamic-sharia", "sharia-advocacy-arbitration"]
+    "skillsNeeded": [
+      "حفظ وفهم للأحكام الشرعية والقانونية",
+      "مهارة كتابة وصياغة",
+      "تفكير منطقي وتحليل نصوص"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن مبادئ الفقه والقانون معاً",
+      "متابعة نقاشات ومناظرات لتقوية الإقناع"
+    ],
+    "careers": [
+      "محامي شرعي وقانوني",
+      "مستشار بمحاكم شرعية"
+    ],
+    "relatedMajors": [
+      "law",
+      "islamic-sharia",
+      "sharia-advocacy-arbitration"
+    ]
   },
   {
     "id": "usul-al-din",
     "name": "أصول الدين",
     "faculty": "كلية أصول الدين",
-    "track": ["علمي", "أدبي"],
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
     "duration": "4 سنوات",
     "admission": [
-      { "university": "الجامعة الإسلامية بغزة", "minGpa": 65, "competitiveGpa": 65, "year": 2026, "verified": true }
+      {
+        "university": "الجامعة الإسلامية بغزة",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true
+      }
     ],
-    "skillsNeeded": ["حفظ وفهم للنصوص الدينية", "مهارة إلقاء وخطابة", "أمانة والتزام أخلاقي"],
-    "skillsToLearnNow": ["حفظ أجزاء من القرآن الكريم", "قراءة عن مبادئ الدعوة والإعلام الديني"],
-    "careers": ["داعية أو خطيب", "معلم تربية إسلامية", "موظف بمؤسسة دعوية"],
-    "relatedMajors": ["islamic-sharia", "islamic-studies-education"]
+    "skillsNeeded": [
+      "حفظ وفهم للنصوص الدينية",
+      "مهارة إلقاء وخطابة",
+      "أمانة والتزام أخلاقي"
+    ],
+    "skillsToLearnNow": [
+      "حفظ أجزاء من القرآن الكريم",
+      "قراءة عن مبادئ الدعوة والإعلام الديني"
+    ],
+    "careers": [
+      "داعية أو خطيب",
+      "معلم تربية إسلامية",
+      "موظف بمؤسسة دعوية"
+    ],
+    "relatedMajors": [
+      "islamic-sharia",
+      "islamic-studies-education"
+    ]
   }
 ]

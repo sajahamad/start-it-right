@@ -1,6 +1,41 @@
+#!/usr/bin/env python3
+"""يبني src/data/majors.json من بيانات القبول الرسمية الخام لأربع جامعات.
+
+المصدر الوحيد للحقيقة لبيانات التخصصات هو هاد الملف. أي تعديل على معدل،
+أو إضافة تخصص جديد، أو إضافة جامعة جديدة، لازم يصير هون وبعدين تشغيل:
+
+    python scripts/build_majors.py
+
+RAW: بيانات خام لكل جامعة كما وردت بمصدرها الرسمي (GPA_DATA.md بجذر المشروع).
+     كل صف: (اسم التخصص كما بيظهر بالموقع، الفرع، أقل معدل، أعلى معدل أو
+     None لو الرقمين متطابقين، رسوم الساعة بالدينار أو None لو مش متوفرة).
+     الفرع بيكون '-' لما يكون التخصص متاح لفرعي علمي وأدبي معاً بنفس الجامعة.
+
+MAJORS: تعريف كل تخصص بيظهر بالموقع (id, name, faculty, duration, sources,
+        المهارات وفرص العمل). sources بتحدد أي صفوف من RAW تنتمي لهاد
+        التخصص - إذا نفس التخصص موجود بأكتر من جامعة، بيصير له أكتر من
+        مصدر وكل واحد بيصير عنصر admission منفصل.
+"""
+
+import json
+import sys
+from pathlib import Path
+
+if sys.stdout.encoding is None or sys.stdout.encoding.lower() != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
+
+UNIVERSITY_NAMES = {
+    'aqsa': 'جامعة الأقصى',
+    'iug': 'الجامعة الإسلامية بغزة',
+    'palestine': 'جامعة فلسطين',
+    'azhar': 'جامعة الأزهر',
+}
+
+ADMISSION_YEAR = 2026
+
 RAW = {
     'aqsa': [
-    ('التمريض', '-', 70, None, 15),
+    ('التمريض', 'أدبي', 70, None, 15),
     ('هندسة الحاسوب', '-', 80, None, 20),
     ('علم الحاسوب', '-', 65, None, 12),
     ('إدارة الأعمال', '-', 65, None, 13),
@@ -16,7 +51,7 @@ RAW = {
     ('الكيمياء وأساليب تدريسها', 'علمي', 65, None, 10),
     ('الفيزياء وأساليب تدريسها', 'علمي', 65, None, 10),
     ('الأحياء وأساليب تدريسها', 'علمي', 65, None, 10),
-    ('تعليم العلوم', 'علمي', 65, None, 10),
+    ('تعليم العلوم', '-', 65, None, 10),
     ('دراسات إسلامية وأساليب تدريسها', '-', 65, None, 10),
     ('الإرشاد النفسي', '-', 65, None, 10),
     ('التكنولوجيا والعلوم التطبيقية وأساليب تدريسها', '-', 65, None, 10),
@@ -37,11 +72,11 @@ RAW = {
     ('تكنولوجيا الشبكات والهواتف النقالة', 'علمي', 65, None, 15),
     ('تكنولوجيا المعلومات التطبيقية', 'علمي', 65, None, 15),
     ('الوسائط المتعددة للويب والموبايل', 'أدبي', 70, None, 18),
-    ('نظم المعلومات الإدارية', '-', 70, 75, 13),
-    ('الكيمياء', 'علمي', 65, None, 10),
-    ('الفيزياء', 'علمي', 65, None, 10),
-    ('الأحياء', 'علمي', 65, None, 10),
-    ('الرياضيات', 'علمي', 65, None, 10),
+    ('نظم المعلومات الإدارية', 'أدبي', 70, 75, 13),
+    ('الكيمياء', '-', 65, None, 10),
+    ('الفيزياء', '-', 65, None, 10),
+    ('الأحياء', '-', 65, None, 10),
+    ('الرياضيات', '-', 65, None, 10),
     ('العلوم الطبية المخبرية', '-', 75, 80, 15),
     ('العلاج الوظيفي', 'علمي', 70, None, 15),
     ('الإذاعة والتلفزيون', '-', 65, None, 12),
@@ -63,7 +98,7 @@ RAW = {
     ('الجغرافيا وأساليب تدريسها', '-', 65, None, None),
     ('الرياضيات وأساليب تدريسها', '-', 65, None, None),
     ('تعليم الرياضيات', '-', 65, None, None),
-    ('تعليم العلوم', 'علمي', 65, None, None),
+    ('تعليم العلوم', '-', 65, None, None),
     ('دراسات إسلامية وأساليب تدريسها', '-', 65, None, None),
     ('الإرشاد النفسي', '-', 65, None, None),
     ('المرحلة الأساسية', '-', 65, None, None),
@@ -77,13 +112,13 @@ RAW = {
     ('حوسبة الويب', '-', 65, None, None),
     ('الوسائط المتعددة', '-', 65, 70, None),
     ('الحوسبة المتنقلة وتطبيقات الأجهزة الذكية', 'علمي', 65, None, None),
-    ('الكيمياء', 'علمي', 65, None, None),
-    ('الفيزياء', 'علمي', 65, None, None),
-    ('الأحياء', 'علمي', 65, None, None),
-    ('الرياضيات', 'علمي', 65, None, None),
-    ('علوم الأرض والبيئة', 'علمي', 65, None, None),
-    ('الكيمياء الحيوية', 'علمي', 65, None, None),
-    ('التكنولوجيا الحيوية', 'علمي', 65, None, None),
+    ('الكيمياء', '-', 65, None, None),
+    ('الفيزياء', '-', 65, None, None),
+    ('الأحياء', '-', 65, None, None),
+    ('الرياضيات', '-', 65, None, None),
+    ('علوم الأرض والبيئة', '-', 65, None, None),
+    ('الكيمياء الحيوية', '-', 65, None, None),
+    ('التكنولوجيا الحيوية', '-', 65, None, None),
     ('العلوم الطبية المخبرية', '-', 70, None, None),
     ('العلاج الطبيعي', '-', 70, None, None),
     ('البصريات', '-', 70, None, None),
@@ -112,7 +147,7 @@ RAW = {
     ('طب الأسنان', 'علمي', 85, None, None),
     ('فني أسنان', 'علمي', 70, None, None),
     ('مساعد طبيب أسنان', 'علمي', 50, None, None),
-    ('هندسة الذكاء الاصطناعي', '-', 80, None, None),
+    ('هندسة الذكاء الاصطناعي', 'علمي', 80, None, None),
     ('إدارة الأعمال', '-', 65, None, None),
     ('المحاسبة', '-', 65, None, None),
     ('القانون', '-', 75, None, None),
@@ -122,8 +157,8 @@ RAW = {
     ('الوسائط المتعددة', '-', 65, None, None),
     ('نظم المعلومات الإدارية', '-', 65, None, None),
     ('التغذية الصحية', 'علمي', 70, None, None),
-    ('الهندسة المدنية', '-', 80, None, None),
-    ('الهندسة المعمارية', '-', 80, None, None),
+    ('الهندسة المدنية', 'علمي', 80, None, None),
+    ('الهندسة المعمارية', 'علمي', 80, None, None),
     ('هندسة البرمجيات', 'علمي', 80, None, None),
     ('التسويق الرقمي', '-', 65, None, None),
     ('الإعلام الرقمي', '-', 65, None, None),
@@ -139,11 +174,11 @@ RAW = {
     ('القانون', '-', 75, None, None),
     ('التربية العامة', '-', 65, None, None),
     ('الآداب والعلوم الإنسانية', '-', 65, None, None),
-    ('الكيمياء', 'علمي', 65, None, None),
-    ('الفيزياء', 'علمي', 65, None, None),
-    ('الأحياء', 'علمي', 65, None, None),
-    ('الرياضيات', 'علمي', 65, None, None),
-    ('علوم الأرض والبيئة', 'علمي', 65, None, None),
+    ('الكيمياء', '-', 65, None, None),
+    ('الفيزياء', '-', 65, None, None),
+    ('الأحياء', '-', 65, None, None),
+    ('الرياضيات', '-', 65, None, None),
+    ('علوم الأرض والبيئة', '-', 65, None, None),
     ('العلوم الطبية المخبرية', '-', 70, None, None),
     ('العلاج الطبيعي', '-', 70, None, None),
     ('الهندسة المدنية', '-', 80, None, None),
@@ -1167,3 +1202,79 @@ MAJORS = [
         'relatedMajors': ['islamic-sharia', 'islamic-studies-education'],
     },
 ]
+
+def _find_raw_row(uni_key, name):
+    for row in RAW[uni_key]:
+        if row[0] == name:
+            return row
+    raise KeyError(f"لا يوجد صف باسم '{name}' بجامعة '{uni_key}' جوا RAW")
+
+
+def _both_tracks(track):
+    return track in ('-', 'علمي-أدبي')
+
+
+def build_admission(sources):
+    """يبني مصفوفة admission وقائمة الفروع الموحدة لتخصص معين من مصادره الخام."""
+    admission = []
+    tracks = set()
+
+    for uni_key, raw_name in sources:
+        _, track, min_gpa, competitive_gpa, fee = _find_raw_row(uni_key, raw_name)
+
+        if _both_tracks(track):
+            tracks.update(['علمي', 'أدبي'])
+        else:
+            tracks.add(track)
+
+        entry = {
+            'university': UNIVERSITY_NAMES[uni_key],
+            'minGpa': min_gpa,
+            'competitiveGpa': competitive_gpa if competitive_gpa is not None else min_gpa,
+            'year': ADMISSION_YEAR,
+            'verified': True,
+        }
+        if fee is not None:
+            entry['feePerCreditHour'] = fee
+        admission.append(entry)
+
+    ordered_tracks = [t for t in ('علمي', 'أدبي') if t in tracks]
+    return admission, ordered_tracks
+
+
+def build():
+    result = []
+    seen_ids = set()
+
+    for major in MAJORS:
+        if major['id'] in seen_ids:
+            raise ValueError(f"id مكرر: {major['id']}")
+        seen_ids.add(major['id'])
+
+        admission, track = build_admission(major['sources'])
+        if not track:
+            raise ValueError(f"تخصص بدون فرع: {major['id']}")
+
+        result.append({
+            'id': major['id'],
+            'name': major['name'],
+            'faculty': major['faculty'],
+            'track': track,
+            'duration': major['duration'],
+            'admission': admission,
+            'skillsNeeded': major['skillsNeeded'],
+            'skillsToLearnNow': major['skillsToLearnNow'],
+            'careers': major['careers'],
+            'relatedMajors': major['relatedMajors'],
+        })
+
+    out_path = Path(__file__).resolve().parent.parent / 'src' / 'data' / 'majors.json'
+    out_path.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + '\n',
+        encoding='utf-8',
+    )
+    print(f"✓ تم بناء {len(result)} تخصص → {out_path}")
+
+
+if __name__ == '__main__':
+    build()

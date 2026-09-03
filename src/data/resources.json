@@ -1,0 +1,128 @@
+[
+  {
+    "id": "programming",
+    "category": "برمجة وتكنولوجيا",
+    "items": [
+      {
+        "title": "CS50: مقدمة إلى علم الحاسوب",
+        "provider": "جامعة هارفارد",
+        "url": "https://cs50.harvard.edu/x/",
+        "description": "أشهر مقدمة مجانية بالبرمجة عالمياً، بتبني أساس قوي بالتفكير المنطقي وحل المشكلات."
+      },
+      {
+        "title": "freeCodeCamp",
+        "provider": "freeCodeCamp",
+        "url": "https://www.freecodecamp.org/",
+        "description": "دورات مجانية كاملة بتطوير الويب مع شهادات وتمارين عملية."
+      },
+      {
+        "title": "قناة Elzero Web School",
+        "provider": "يوتيوب - عربي",
+        "url": "https://www.youtube.com/@ElzeroWebSchool",
+        "description": "شرح عربي مبسط لتطوير الويب من الصفر، مناسب لمين ما عندوش خلفية برمجية."
+      },
+      {
+        "title": "دورات برمجة على رواق",
+        "provider": "منصة رواق",
+        "url": "https://rwaq.org/",
+        "description": "منصة عربية مجانية فيها دورات برمجة وعلوم حاسوب بشهادة إتمام."
+      }
+    ]
+  },
+  {
+    "id": "languages",
+    "category": "لغات",
+    "items": [
+      {
+        "title": "Duolingo",
+        "provider": "Duolingo",
+        "url": "https://www.duolingo.com/",
+        "description": "تطبيق مجاني لتعلم الإنجليزية (ولغات تانية) بأسلوب تدريجي وممتع يومياً."
+      },
+      {
+        "title": "BBC Learning English",
+        "provider": "BBC",
+        "url": "https://www.bbc.co.uk/learningenglish",
+        "description": "دروس وفيديوهات مجانية لتقوية الاستماع والمفردات بإنجليزي واضح."
+      },
+      {
+        "title": "دورات لغة إنجليزية على إدراك",
+        "provider": "منصة إدراك",
+        "url": "https://www.edraak.org/",
+        "description": "منصة عربية مجانية فيها مساقات لتقوية اللغة الإنجليزية الأكاديمية."
+      }
+    ]
+  },
+  {
+    "id": "medical",
+    "category": "طبي وصحي",
+    "items": [
+      {
+        "title": "Khan Academy - الطب والصحة",
+        "provider": "Khan Academy",
+        "url": "https://www.khanacademy.org/science/health-and-medicine",
+        "description": "فيديوهات مجانية تشرح أساسيات التشريح والفيزيولوجيا بطريقة مبسطة."
+      },
+      {
+        "title": "Osmosis",
+        "provider": "Osmosis",
+        "url": "https://www.osmosis.org/",
+        "description": "محتوى مجاني (وبعضه مدفوع) لتبسيط مواد الطب الأساسية زي التشريح والفارماكولوجي."
+      },
+      {
+        "title": "قناة Ninja Nerd",
+        "provider": "يوتيوب",
+        "url": "https://www.youtube.com/@NinjaNerdScience",
+        "description": "شرح مفصل ومرئي لمواد الطب والتمريض الأساسية بالسنوات الأولى."
+      }
+    ]
+  },
+  {
+    "id": "design",
+    "category": "تصميم",
+    "items": [
+      {
+        "title": "Canva Design School",
+        "provider": "Canva",
+        "url": "https://www.canva.com/designschool/",
+        "description": "دروس مجانية بأساسيات التصميم الجرافيكي والألوان والتايبوغرافي."
+      },
+      {
+        "title": "Figma Learn",
+        "provider": "Figma",
+        "url": "https://help.figma.com/hc/en-us/categories/360002042553-Getting-started",
+        "description": "دليل مجاني لتعلم أداة Figma المستخدمة بتصميم واجهات المستخدم UI/UX."
+      },
+      {
+        "title": "Google UX Design (المساق التعريفي)",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+        "description": "مقدمة مجانية (مع خيار الاشتراك بالشهادة الكاملة) بمجال تصميم تجربة المستخدم."
+      }
+    ]
+  },
+  {
+    "id": "business",
+    "category": "إدارة أعمال واقتصاد",
+    "items": [
+      {
+        "title": "Google Digital Garage",
+        "provider": "Google",
+        "url": "https://learndigital.withgoogle.com/digitalgarage",
+        "description": "دورات مجانية بالتسويق الرقمي وأساسيات إدارة الأعمال مع شهادات مجانية."
+      },
+      {
+        "title": "Alison - دورات إدارة أعمال",
+        "provider": "Alison",
+        "url": "https://alison.com/courses/business",
+        "description": "مئات الدورات المجانية بالإدارة والمحاسبة والتسويق مع إمكانية طباعة شهادة."
+      },
+      {
+        "title": "مساقات إدارة على إدراك",
+        "provider": "منصة إدراك",
+        "url": "https://www.edraak.org/",
+        "description": "مساقات عربية مجانية بمبادئ الإدارة وريادة الأعمال."
+      }
+    ]
+  }
+]

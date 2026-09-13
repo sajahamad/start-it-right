@@ -30,3 +30,36 @@ export function filterMajors(majors, { search = '', track = '' } = {}) {
     return matchesSearch && matchesTrack;
   });
 }
+
+const DURATION_YEARS_PATTERN = /\d+(\.\d+)?/;
+
+export function durationYears(major) {
+  const match = major.duration.match(DURATION_YEARS_PATTERN);
+  return match ? Number(match[0]) : Number.POSITIVE_INFINITY;
+}
+
+export function getFeeRange(major) {
+  const fees = major.admission.map((entry) => entry.feePerCreditHour).filter((fee) => fee != null);
+  if (fees.length === 0) return null;
+  return { min: Math.min(...fees), max: Math.max(...fees) };
+}
+
+export function getMajorUniversities(major) {
+  return [...new Set(major.admission.map((entry) => entry.university))];
+}
+
+export function sortMajors(majors, sortKey = 'gpa-desc') {
+  const sorted = [...majors];
+  switch (sortKey) {
+    case 'gpa-desc':
+      return sorted.sort((a, b) => gpaSummary(b).min - gpaSummary(a).min);
+    case 'gpa-asc':
+      return sorted.sort((a, b) => gpaSummary(a).min - gpaSummary(b).min);
+    case 'alpha':
+      return sorted.sort((a, b) => a.name.localeCompare(b.name, 'ar'));
+    case 'duration':
+      return sorted.sort((a, b) => durationYears(a) - durationYears(b));
+    default:
+      return sorted;
+  }
+}

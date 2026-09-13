@@ -1,4 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
+import Button from '../components/Button.jsx';
 import MajorCard from '../components/MajorCard.jsx';
 import majors from '../data/majors.json';
 import { getMajorById, getRelatedMajors } from '../utils/majors.js';
@@ -11,14 +12,9 @@ function MajorDetail() {
     return (
       <section className="px-6 py-16">
         <div className="mx-auto w-full max-w-6xl py-10 text-center">
-          <h2 className="mb-3 text-3xl font-bold text-blue-950">ما لقينا هاد التخصص</h2>
-          <p className="mb-6 text-stone-600">يمكن الرابط غلط أو التخصص انحذف.</p>
-          <Link
-            to="/majors"
-            className="inline-flex rounded-lg bg-amber-600 px-6 py-3.5 text-base font-bold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-amber-700 hover:shadow-md"
-          >
-            ارجع لكل التخصصات
-          </Link>
+          <h2 className="mb-3 text-3xl font-bold text-ink">ما لقينا هاد التخصص</h2>
+          <p className="mb-6 text-muted">يمكن الرابط غلط أو التخصص انحذف.</p>
+          <Button to="/majors">ارجع لكل التخصصات</Button>
         </div>
       </section>
     );
@@ -28,7 +24,7 @@ function MajorDetail() {
 
   return (
     <>
-      <section className="bg-blue-950 pb-12 pt-10 text-white">
+      <section className="bg-ink pb-12 pt-10 text-white">
         <div className="mx-auto w-full max-w-6xl px-6">
           <Link to="/majors" className="mb-4 inline-block text-sm text-white/70 hover:text-white">
             ← كل التخصصات
@@ -48,21 +44,21 @@ function MajorDetail() {
       <section className="px-6 py-16">
         <div className="mx-auto w-full max-w-6xl">
           <div className="mb-10">
-            <h2 className="mb-2 text-2xl font-bold text-blue-950">معدلات القبول حسب الجامعة</h2>
+            <h2 className="mb-2 text-2xl font-bold text-ink">معدلات القبول حسب الجامعة</h2>
             <div className="mt-4 overflow-x-auto">
-              <table className="w-full border-collapse overflow-hidden rounded-2xl border border-stone-200 bg-white">
+              <table className="w-full border-collapse overflow-hidden rounded-2xl border border-border bg-white">
                 <thead>
                   <tr>
-                    <th className="border-b border-stone-200 bg-amber-50 px-4 py-3.5 text-right text-xs text-blue-950">
+                    <th className="border-b border-border bg-surface px-4 py-3.5 text-right text-xs text-ink">
                       الجامعة
                     </th>
-                    <th className="border-b border-stone-200 bg-amber-50 px-4 py-3.5 text-right text-xs text-blue-950">
+                    <th className="border-b border-border bg-surface px-4 py-3.5 text-right text-xs text-ink">
                       السنة
                     </th>
-                    <th className="border-b border-stone-200 bg-amber-50 px-4 py-3.5 text-right text-xs text-blue-950">
+                    <th className="border-b border-border bg-surface px-4 py-3.5 text-right text-xs text-ink">
                       المعدل
                     </th>
-                    <th className="border-b border-stone-200 bg-amber-50 px-4 py-3.5 text-right text-xs text-blue-950">
+                    <th className="border-b border-border bg-surface px-4 py-3.5 text-right text-xs text-ink">
                       رسوم الساعة
                     </th>
                   </tr>
@@ -70,18 +66,18 @@ function MajorDetail() {
                 <tbody>
                   {major.admission.map((entry) => (
                     <tr key={`${entry.university}-${entry.year}`} className="last:[&>td]:border-b-0">
-                      <td className="border-b border-stone-200 px-4 py-3.5 text-[15px]">
+                      <td className="border-b border-border px-4 py-3.5 text-[15px]">
                         {entry.university}
                       </td>
-                      <td className="border-b border-stone-200 px-4 py-3.5 text-[15px]">
+                      <td className="border-b border-border px-4 py-3.5 text-[15px]">
                         {entry.year}
                       </td>
-                      <td className="border-b border-stone-200 px-4 py-3.5 text-right text-[15px]" dir="ltr">
+                      <td className="border-b border-border px-4 py-3.5 text-right text-[15px]" dir="ltr">
                         {entry.minGpa === entry.competitiveGpa
                           ? `${entry.minGpa}%`
                           : `${entry.minGpa}% - ${entry.competitiveGpa}%`}
                       </td>
-                      <td className="border-b border-stone-200 px-4 py-3.5 text-[15px]">
+                      <td className="border-b border-border px-4 py-3.5 text-[15px]">
                         {entry.feePerCreditHour ? `${entry.feePerCreditHour} دينار` : '-'}
                       </td>
                     </tr>
@@ -93,20 +89,20 @@ function MajorDetail() {
 
           <div className="mb-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
             <div>
-              <h2 className="mb-2 text-2xl font-bold text-blue-950">المهارات المطلوبة</h2>
+              <h2 className="mb-2 text-2xl font-bold text-ink">المهارات المطلوبة</h2>
               <ul className="mt-4 flex flex-col gap-2.5">
                 {major.skillsNeeded.map((skill) => (
-                  <li key={skill} className="relative pr-5.5 text-[15px] before:absolute before:right-0 before:top-2 before:h-2 before:w-2 before:rounded-full before:bg-blue-950">
+                  <li key={skill} className="relative pr-5.5 text-[15px] before:absolute before:right-0 before:top-2 before:h-2 before:w-2 before:rounded-full before:bg-ink">
                     {skill}
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <h2 className="mb-2 text-2xl font-bold text-blue-950">ابدأ تتعلمها من هلق</h2>
+              <h2 className="mb-2 text-2xl font-bold text-ink">ابدأ تتعلمها من هلق</h2>
               <ul className="mt-4 flex flex-col gap-2.5">
                 {major.skillsToLearnNow.map((skill) => (
-                  <li key={skill} className="relative pr-5.5 text-[15px] before:absolute before:right-0 before:top-2 before:h-2 before:w-2 before:rounded-full before:bg-amber-600">
+                  <li key={skill} className="relative pr-5.5 text-[15px] before:absolute before:right-0 before:top-2 before:h-2 before:w-2 before:rounded-full before:bg-primary">
                     {skill}
                   </li>
                 ))}
@@ -115,12 +111,12 @@ function MajorDetail() {
           </div>
 
           <div>
-            <h2 className="mb-2 text-2xl font-bold text-blue-950">فرص العمل بعد التخرج</h2>
+            <h2 className="mb-2 text-2xl font-bold text-ink">فرص العمل بعد التخرج</h2>
             <ul className="mt-4 flex flex-wrap gap-2.5">
               {major.careers.map((career) => (
                 <li
                   key={career}
-                  className="rounded-full border border-stone-200 bg-amber-50 px-4 py-2 text-sm text-blue-950"
+                  className="rounded-full border border-border bg-surface px-4 py-2 text-sm text-ink"
                 >
                   {career}
                 </li>
@@ -131,7 +127,7 @@ function MajorDetail() {
 
         {related.length > 0 && (
           <div className="mx-auto mt-10 w-full max-w-6xl">
-            <h2 className="mb-2 text-2xl font-bold text-blue-950">تخصصات قريبة</h2>
+            <h2 className="mb-2 text-2xl font-bold text-ink">تخصصات قريبة</h2>
             <div className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {related.map((relatedMajor) => (
                 <MajorCard key={relatedMajor.id} major={relatedMajor} />

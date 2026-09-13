@@ -2,6 +2,7 @@
   {
     "id": "programming",
     "category": "برمجة وتكنولوجيا",
+    "icon": "code",
     "items": [
       {
         "title": "CS50: مقدمة إلى علم الحاسوب",
@@ -32,6 +33,7 @@
   {
     "id": "languages",
     "category": "لغات",
+    "icon": "languages",
     "items": [
       {
         "title": "Duolingo",
@@ -56,6 +58,7 @@
   {
     "id": "medical",
     "category": "طبي وصحي",
+    "icon": "stethoscope",
     "items": [
       {
         "title": "Khan Academy - الطب والصحة",
@@ -80,6 +83,7 @@
   {
     "id": "design",
     "category": "تصميم",
+    "icon": "palette",
     "items": [
       {
         "title": "Canva Design School",
@@ -104,6 +108,7 @@
   {
     "id": "business",
     "category": "إدارة أعمال واقتصاد",
+    "icon": "briefcase",
     "items": [
       {
         "title": "Google Digital Garage",

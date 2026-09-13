@@ -18,10 +18,11 @@
       },
       {
         "university": "جامعة الأزهر",
-        "minGpa": 90,
-        "competitiveGpa": 95,
+        "minGpa": 92,
+        "competitiveGpa": 93,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 100
       }
     ],
     "skillsNeeded": [
@@ -61,7 +62,8 @@
         "minGpa": 80,
         "competitiveGpa": 80,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 30
       }
     ],
     "skillsNeeded": [
@@ -100,7 +102,8 @@
         "minGpa": 82,
         "competitiveGpa": 82,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 40
       }
     ],
     "skillsNeeded": [
@@ -152,14 +155,16 @@
         "minGpa": 70,
         "competitiveGpa": 80,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 25
       },
       {
         "university": "جامعة الأزهر",
-        "minGpa": 65,
-        "competitiveGpa": 65,
+        "minGpa": 70,
+        "competitiveGpa": 80,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 22
       }
     ],
     "skillsNeeded": [
@@ -198,7 +203,8 @@
         "minGpa": 50,
         "competitiveGpa": 60,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -218,7 +224,7 @@
   },
   {
     "id": "dentistry",
-    "name": "طب الأسنان",
+    "name": "دكتور طب وجراحة الفم والأسنان",
     "faculty": "كلية طب الأسنان",
     "track": [
       "علمي"
@@ -230,7 +236,8 @@
         "minGpa": 85,
         "competitiveGpa": 85,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 100
       }
     ],
     "skillsNeeded": [
@@ -268,7 +275,8 @@
         "minGpa": 70,
         "competitiveGpa": 70,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 35
       }
     ],
     "skillsNeeded": [
@@ -301,7 +309,8 @@
         "minGpa": 50,
         "competitiveGpa": 50,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -326,7 +335,8 @@
     "faculty": "كلية هندسة البرمجيات والذكاء الاصطناعي",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -335,7 +345,8 @@
         "minGpa": 80,
         "competitiveGpa": 80,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 25
       },
       {
         "university": "الجامعة الإسلامية بغزة",
@@ -343,6 +354,14 @@
         "competitiveGpa": 80,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 28
       }
     ],
     "skillsNeeded": [
@@ -371,7 +390,8 @@
     "faculty": "كلية الهندسة",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي"
     ],
     "duration": "5 سنوات",
     "admission": [
@@ -395,7 +415,8 @@
         "minGpa": 80,
         "competitiveGpa": 80,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 28
       }
     ],
     "skillsNeeded": [
@@ -424,7 +445,9 @@
     "faculty": "كلية الحاسبات وتكنولوجيا المعلومات",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -448,7 +471,8 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -477,7 +501,8 @@
     "faculty": "كلية الاقتصاد والعلوم الإدارية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -497,18 +522,12 @@
         "verified": true
       },
       {
-        "university": "جامعة فلسطين",
-        "minGpa": 65,
-        "competitiveGpa": 65,
-        "year": 2026,
-        "verified": true
-      },
-      {
         "university": "جامعة الأزهر",
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 18
       }
     ],
     "skillsNeeded": [
@@ -532,12 +551,91 @@
     ]
   },
   {
+    "id": "business-administration-arabic-palestine",
+    "name": "إدارة الأعمال باللغة العربية",
+    "faculty": "كلية إدارة المال والأعمال",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 15
+      }
+    ],
+    "skillsNeeded": [
+      "تنظيم وإدارة وقت",
+      "مهارات تواصل وعرض أفكار",
+      "تفكير رقمي بسيط بالأرقام والجداول"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات Excel",
+      "قراءة عن مفاهيم إدارة ومشاريع بسيطة"
+    ],
+    "careers": [
+      "موظف موارد بشرية",
+      "مسؤول تسويق",
+      "ريادة أعمال ومشروع خاص"
+    ],
+    "relatedMajors": [
+      "business-administration-english-palestine",
+      "accounting-arabic-palestine",
+      "business-administration"
+    ]
+  },
+  {
+    "id": "business-administration-english-palestine",
+    "name": "إدارة الأعمال باللغة الإنجليزية",
+    "faculty": "كلية إدارة المال والأعمال",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
+    ],
+    "skillsNeeded": [
+      "لغة إنجليزية قوية بالمصطلحات الإدارية",
+      "تنظيم وإدارة وقت",
+      "مهارات تواصل وعرض أفكار"
+    ],
+    "skillsToLearnNow": [
+      "تقوية اللغة الإنجليزية الأكاديمية",
+      "تعلم أساسيات Excel"
+    ],
+    "careers": [
+      "موظف موارد بشرية بشركة دولية",
+      "مسؤول تسويق",
+      "ريادة أعمال ومشروع خاص"
+    ],
+    "relatedMajors": [
+      "business-administration-arabic-palestine",
+      "accounting-english-palestine",
+      "business-administration"
+    ]
+  },
+  {
     "id": "accounting",
     "name": "المحاسبة",
     "faculty": "كلية الاقتصاد والعلوم الإدارية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -557,11 +655,12 @@
         "verified": true
       },
       {
-        "university": "جامعة فلسطين",
+        "university": "جامعة الأزهر",
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 18
       }
     ],
     "skillsNeeded": [
@@ -584,6 +683,84 @@
     ]
   },
   {
+    "id": "accounting-arabic-palestine",
+    "name": "محاسبة باللغة العربية",
+    "faculty": "كلية إدارة المال والأعمال",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 15
+      }
+    ],
+    "skillsNeeded": [
+      "دقة بالتعامل مع الأرقام",
+      "تنظيم وترتيب",
+      "أمانة ومسؤولية مالية"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات Excel وبرامج محاسبة بسيطة",
+      "مراجعة مبادئ الحساب والنسب"
+    ],
+    "careers": [
+      "محاسب بشركة أو مؤسسة",
+      "مدقق حسابات",
+      "محاسب مستقل (فريلانس)"
+    ],
+    "relatedMajors": [
+      "accounting-english-palestine",
+      "business-administration-arabic-palestine",
+      "accounting"
+    ]
+  },
+  {
+    "id": "accounting-english-palestine",
+    "name": "محاسبة باللغة الإنجليزية",
+    "faculty": "كلية إدارة المال والأعمال",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
+      }
+    ],
+    "skillsNeeded": [
+      "لغة إنجليزية قوية بالمصطلحات المحاسبية",
+      "دقة بالتعامل مع الأرقام",
+      "أمانة ومسؤولية مالية"
+    ],
+    "skillsToLearnNow": [
+      "تقوية اللغة الإنجليزية الأكاديمية",
+      "تعلم أساسيات Excel وبرامج محاسبة بسيطة"
+    ],
+    "careers": [
+      "محاسب بشركة دولية",
+      "مدقق حسابات",
+      "محاسب مستقل (فريلانس)"
+    ],
+    "relatedMajors": [
+      "accounting-arabic-palestine",
+      "business-administration-english-palestine",
+      "accounting"
+    ]
+  },
+  {
     "id": "law",
     "name": "القانون",
     "faculty": "كلية الحقوق",
@@ -598,14 +775,8 @@
         "minGpa": 75,
         "competitiveGpa": 75,
         "year": 2026,
-        "verified": true
-      },
-      {
-        "university": "جامعة الأزهر",
-        "minGpa": 75,
-        "competitiveGpa": 75,
-        "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -763,7 +934,8 @@
     "faculty": "كلية التربية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -781,6 +953,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
       }
     ],
     "skillsNeeded": [
@@ -807,7 +987,8 @@
     "faculty": "كلية التربية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -825,6 +1006,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
       }
     ],
     "skillsNeeded": [
@@ -852,7 +1041,8 @@
     "faculty": "كلية التربية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -870,6 +1060,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
       }
     ],
     "skillsNeeded": [
@@ -941,7 +1139,9 @@
     "faculty": "كلية التربية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -959,6 +1159,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -984,7 +1192,9 @@
     "name": "الكيمياء وأساليب تدريسها",
     "faculty": "كلية التربية",
     "track": [
-      "علمي"
+      "علمي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -995,6 +1205,14 @@
         "year": 2026,
         "verified": true,
         "feePerCreditHour": 10
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -1020,7 +1238,9 @@
     "name": "الفيزياء وأساليب تدريسها",
     "faculty": "كلية التربية",
     "track": [
-      "علمي"
+      "علمي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -1031,6 +1251,14 @@
         "year": 2026,
         "verified": true,
         "feePerCreditHour": 10
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -1056,7 +1284,9 @@
     "name": "الأحياء وأساليب تدريسها",
     "faculty": "كلية التربية",
     "track": [
-      "علمي"
+      "علمي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -1067,6 +1297,14 @@
         "year": 2026,
         "verified": true,
         "feePerCreditHour": 10
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -1093,7 +1331,9 @@
     "faculty": "كلية التربية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -1111,6 +1351,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -1263,7 +1511,8 @@
     "faculty": "كلية التربية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -1287,7 +1536,16 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 15
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
       }
     ],
     "skillsNeeded": [
@@ -1314,7 +1572,8 @@
     "faculty": "كلية التربية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -1332,6 +1591,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
       }
     ],
     "skillsNeeded": [
@@ -1394,7 +1661,8 @@
     "faculty": "كلية التربية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -1404,6 +1672,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -1426,7 +1702,7 @@
   },
   {
     "id": "upper-stage-teaching",
-    "name": "تعليم المرحلة العليا ولغة إنجليزية",
+    "name": "تعليم المرحلة العليا/ اللغة الإنجليزية",
     "faculty": "كلية التربية",
     "track": [
       "علمي",
@@ -1439,7 +1715,8 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 15
       }
     ],
     "skillsNeeded": [
@@ -1511,7 +1788,8 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -1704,7 +1982,8 @@
     "faculty": "كلية الآداب والعلوم الإنسانية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -1722,6 +2001,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
       }
     ],
     "skillsNeeded": [
@@ -2150,7 +2437,9 @@
     "faculty": "كلية تكنولوجيا المعلومات",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -2160,6 +2449,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -2187,7 +2484,9 @@
     "faculty": "كلية تكنولوجيا المعلومات",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -2197,6 +2496,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -2223,7 +2530,8 @@
     "faculty": "كلية تكنولوجيا المعلومات",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -2239,7 +2547,16 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -2265,7 +2582,9 @@
     "name": "الحوسبة المتنقلة وتطبيقات الأجهزة الذكية",
     "faculty": "كلية تكنولوجيا المعلومات",
     "track": [
-      "علمي"
+      "علمي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -2275,6 +2594,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -2318,7 +2645,8 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -2346,7 +2674,9 @@
     "faculty": "كلية العلوم",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -2370,7 +2700,8 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -2399,7 +2730,9 @@
     "faculty": "كلية العلوم",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -2423,7 +2756,8 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -2452,7 +2786,9 @@
     "faculty": "كلية العلوم",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -2476,7 +2812,8 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -2505,7 +2842,9 @@
     "faculty": "كلية العلوم",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -2529,7 +2868,8 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -2558,7 +2898,9 @@
     "faculty": "كلية العلوم",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -2574,7 +2916,8 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -2602,7 +2945,9 @@
     "faculty": "كلية العلوم",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -2612,6 +2957,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -2639,7 +2992,9 @@
     "faculty": "كلية العلوم",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي",
+      "زراعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -2649,6 +3004,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -2699,7 +3062,8 @@
         "minGpa": 70,
         "competitiveGpa": 70,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -2779,7 +3143,8 @@
         "minGpa": 70,
         "competitiveGpa": 70,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -2888,6 +3253,14 @@
         "competitiveGpa": 70,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -2922,7 +3295,8 @@
         "minGpa": 70,
         "competitiveGpa": 70,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -2985,7 +3359,8 @@
     "faculty": "كلية الهندسة",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -3001,14 +3376,16 @@
         "minGpa": 80,
         "competitiveGpa": 80,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 25
       },
       {
         "university": "جامعة الأزهر",
         "minGpa": 80,
         "competitiveGpa": 80,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 28
       }
     ],
     "skillsNeeded": [
@@ -3035,9 +3412,10 @@
     "faculty": "كلية الهندسة",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي"
     ],
-    "duration": "4 سنوات",
+    "duration": "5 سنوات",
     "admission": [
       {
         "university": "الجامعة الإسلامية بغزة",
@@ -3051,14 +3429,16 @@
         "minGpa": 80,
         "competitiveGpa": 80,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 25
       },
       {
         "university": "جامعة الأزهر",
         "minGpa": 80,
         "competitiveGpa": 80,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 28
       }
     ],
     "skillsNeeded": [
@@ -3086,7 +3466,8 @@
     "faculty": "كلية الهندسة",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي"
     ],
     "duration": "5 سنوات",
     "admission": [
@@ -3096,6 +3477,14 @@
         "competitiveGpa": 80,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 28
       }
     ],
     "skillsNeeded": [
@@ -3122,7 +3511,8 @@
     "faculty": "كلية الهندسة",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي"
     ],
     "duration": "5 سنوات",
     "admission": [
@@ -3132,6 +3522,14 @@
         "competitiveGpa": 80,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 28
       }
     ],
     "skillsNeeded": [
@@ -3158,7 +3556,8 @@
     "faculty": "كلية الهندسة",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي"
     ],
     "duration": "5 سنوات",
     "admission": [
@@ -3168,6 +3567,14 @@
         "competitiveGpa": 80,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 28
       }
     ],
     "skillsNeeded": [
@@ -3194,7 +3601,8 @@
     "faculty": "كلية الهندسة",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي"
     ],
     "duration": "5 سنوات",
     "admission": [
@@ -3204,6 +3612,14 @@
         "competitiveGpa": 80,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 28
       }
     ],
     "skillsNeeded": [
@@ -3230,7 +3646,8 @@
     "faculty": "كلية الهندسة",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "صناعي"
     ],
     "duration": "5 سنوات",
     "admission": [
@@ -3240,6 +3657,14 @@
         "competitiveGpa": 80,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 28
       }
     ],
     "skillsNeeded": [
@@ -3274,7 +3699,8 @@
         "minGpa": 80,
         "competitiveGpa": 80,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 25
       }
     ],
     "skillsNeeded": [
@@ -3302,7 +3728,8 @@
     "faculty": "كلية الاقتصاد والعلوم الإدارية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -3312,6 +3739,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
       }
     ],
     "skillsNeeded": [
@@ -3338,7 +3773,8 @@
     "faculty": "كلية الاقتصاد والعلوم الإدارية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -3348,6 +3784,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
       }
     ],
     "skillsNeeded": [
@@ -3502,7 +3946,8 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -3529,7 +3974,8 @@
     "faculty": "كلية العلوم الرقمية",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -3538,7 +3984,16 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
       }
     ],
     "skillsNeeded": [
@@ -3629,12 +4084,268 @@
     ]
   },
   {
+    "id": "e-marketing-diploma",
+    "name": "التسويق الالكتروني (دبلوم)",
+    "faculty": "دبلوم متوسط",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "سنتين (دبلوم)",
+    "admission": [
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 50,
+        "competitiveGpa": 50,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
+    ],
+    "skillsNeeded": [
+      "حس تسويقي وإبداعي",
+      "أساسيات تقنية جيدة بمواقع ووسائل التواصل"
+    ],
+    "skillsToLearnNow": [
+      "دورة مجانية بأساسيات التسويق الرقمي (Google Digital Garage)",
+      "تجربة إدارة صفحة تواصل اجتماعي بسيطة"
+    ],
+    "careers": [
+      "منفذ تسويق إلكتروني",
+      "مدير صفحات تواصل اجتماعي لمشروع صغير"
+    ],
+    "relatedMajors": [
+      "digital-marketing",
+      "it-diploma"
+    ]
+  },
+  {
+    "id": "multimedia-diploma",
+    "name": "الوسائط المتعددة (دبلوم)",
+    "faculty": "دبلوم متوسط",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "سنتين (دبلوم)",
+    "admission": [
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 50,
+        "competitiveGpa": 50,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
+    ],
+    "skillsNeeded": [
+      "حس تصميمي وفني",
+      "أساسيات تقنية بالتصميم والمونتاج"
+    ],
+    "skillsToLearnNow": [
+      "تجربة برنامج تصميم أو مونتاج مجاني بسيط",
+      "مشاهدة دروس تصميم جرافيك أساسية"
+    ],
+    "careers": [
+      "فني وسائط متعددة مبتدئ",
+      "مصمم محتوى بصري لشركة صغيرة"
+    ],
+    "relatedMajors": [
+      "multimedia",
+      "digital-media"
+    ]
+  },
+  {
+    "id": "pr-marketing-diploma",
+    "name": "العلاقات العامة والتسويق (دبلوم)",
+    "faculty": "دبلوم متوسط",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "سنتين (دبلوم)",
+    "admission": [
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 50,
+        "competitiveGpa": 50,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
+    ],
+    "skillsNeeded": [
+      "مهارات تواصل وعرض أفكار",
+      "حس تسويقي",
+      "ثقة بالنفس بالتعامل مع الجمهور"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساسيات العلاقات العامة والتسويق",
+      "تمرين مهارات العرض والتقديم"
+    ],
+    "careers": [
+      "موظف علاقات عامة بمؤسسة",
+      "منسق فعاليات وتسويق"
+    ],
+    "relatedMajors": [
+      "digital-marketing",
+      "business-administration"
+    ]
+  },
+  {
+    "id": "computerized-accounting-diploma",
+    "name": "المحاسبة المحوسبة (دبلوم)",
+    "faculty": "دبلوم متوسط",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "سنتين (دبلوم)",
+    "admission": [
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 50,
+        "competitiveGpa": 50,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
+    ],
+    "skillsNeeded": [
+      "دقة بالتعامل مع الأرقام",
+      "أساسيات تقنية بالتعامل مع برامج محاسبة"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات Excel وبرامج محاسبة بسيطة",
+      "مراجعة مبادئ الحساب والنسب"
+    ],
+    "careers": [
+      "محاسب مساعد بشركة صغيرة",
+      "مدخل بيانات مالية"
+    ],
+    "relatedMajors": [
+      "accounting",
+      "accounting-arabic-palestine"
+    ]
+  },
+  {
+    "id": "office-management-diploma",
+    "name": "إدارة وأتمتة المكاتب (دبلوم)",
+    "faculty": "دبلوم متوسط",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "سنتين (دبلوم)",
+    "admission": [
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 50,
+        "competitiveGpa": 50,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
+    ],
+    "skillsNeeded": [
+      "تنظيم وترتيب",
+      "أساسيات تقنية ببرامج المكتب (Office)"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات Word وExcel",
+      "تمرين مهارات الأرشفة والتنظيم"
+    ],
+    "careers": [
+      "سكرتير/ة تنفيذي",
+      "موظف إدارة مكاتب"
+    ],
+    "relatedMajors": [
+      "admin-legal-diploma",
+      "medical-secretary-diploma"
+    ]
+  },
+  {
+    "id": "medical-secretary-diploma",
+    "name": "سكرتاريا طبية (دبلوم)",
+    "faculty": "دبلوم متوسط",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "سنتين (دبلوم)",
+    "admission": [
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 50,
+        "competitiveGpa": 50,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
+    ],
+    "skillsNeeded": [
+      "تنظيم وترتيب",
+      "دقة بالتعامل مع سجلات المرضى",
+      "مهارة تواصل مع المرضى"
+    ],
+    "skillsToLearnNow": [
+      "تعلم مصطلحات طبية إنجليزية أساسية",
+      "تعلم أساسيات Excel والأرشفة المكتبية"
+    ],
+    "careers": [
+      "سكرتير/ة طبي بمستشفى أو عيادة",
+      "موظف استقبال بمركز صحي"
+    ],
+    "relatedMajors": [
+      "office-management-diploma",
+      "nursing-diploma"
+    ]
+  },
+  {
+    "id": "legal-assistant-diploma",
+    "name": "مساعد قانوني (دبلوم)",
+    "faculty": "دبلوم متوسط",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "سنتين (دبلوم)",
+    "admission": [
+      {
+        "university": "جامعة فلسطين",
+        "minGpa": 50,
+        "competitiveGpa": 50,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
+    ],
+    "skillsNeeded": [
+      "تنظيم وترتيب المستندات",
+      "دقة بالتفاصيل",
+      "أمانة ومسؤولية"
+    ],
+    "skillsToLearnNow": [
+      "قراءة أساسيات عن النظام القانوني الفلسطيني",
+      "تعلم أساسيات Word والأرشفة المكتبية"
+    ],
+    "careers": [
+      "مساعد قانوني بمكتب محاماة",
+      "موظف إدارة مستندات قانونية"
+    ],
+    "relatedMajors": [
+      "admin-legal-diploma",
+      "law"
+    ]
+  },
+  {
     "id": "islamic-sharia",
     "name": "الشريعة الإسلامية",
     "faculty": "كلية الشريعة والقانون",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -3650,7 +4361,8 @@
         "minGpa": 65,
         "competitiveGpa": 65,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 15
       }
     ],
     "skillsNeeded": [
@@ -3679,7 +4391,8 @@
     "faculty": "كلية الشريعة والقانون",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "شرعي"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -3695,7 +4408,8 @@
         "minGpa": 75,
         "competitiveGpa": 75,
         "year": 2026,
-        "verified": true
+        "verified": true,
+        "feePerCreditHour": 20
       }
     ],
     "skillsNeeded": [
@@ -3723,7 +4437,8 @@
     "faculty": "كلية أصول الدين",
     "track": [
       "علمي",
-      "أدبي"
+      "أدبي",
+      "جميع الفروع"
     ],
     "duration": "4 سنوات",
     "admission": [
@@ -3733,6 +4448,14 @@
         "competitiveGpa": 65,
         "year": 2026,
         "verified": true
+      },
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 15
       }
     ],
     "skillsNeeded": [
@@ -3752,6 +4475,1147 @@
     "relatedMajors": [
       "islamic-sharia",
       "islamic-studies-education"
+    ]
+  },
+  {
+    "id": "legal-midwifery",
+    "name": "برنامج القبالة القانونية",
+    "faculty": "كلية التمريض",
+    "track": [
+      "علمي",
+      "أدبي"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 70,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
+    ],
+    "skillsNeeded": [
+      "دقة بمتابعة الحمل والولادة",
+      "قدرة على اتخاذ قرار سريع بمواقف حرجة",
+      "تعاطف وصبر مع الأمهات"
+    ],
+    "skillsToLearnNow": [
+      "حضور دورة إسعافات أولية",
+      "تقوية اللغة الإنجليزية الطبية"
+    ],
+    "careers": [
+      "قابلة قانونية بمستشفى",
+      "قابلة برعاية صحية أولية"
+    ],
+    "relatedMajors": [
+      "nursing"
+    ]
+  },
+  {
+    "id": "urban-planning-architecture",
+    "name": "برنامج الهندسة المعمارية – فرعي تخطيط عمراني",
+    "faculty": "كلية الهندسة",
+    "track": [
+      "علمي",
+      "صناعي"
+    ],
+    "duration": "5 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 28
+      }
+    ],
+    "skillsNeeded": [
+      "حس فني وهندسي",
+      "فهم لتخطيط المدن والمساحات العامة",
+      "مهارة رسم تقني"
+    ],
+    "skillsToLearnNow": [
+      "تجربة برامج نمذجة معمارية مجانية",
+      "قراءة عن تخطيط المدن الفلسطينية"
+    ],
+    "careers": [
+      "مخطط عمراني بمؤسسة بلدية",
+      "مستشار تخطيط بمشاريع إسكان"
+    ],
+    "relatedMajors": [
+      "architecture-engineering"
+    ]
+  },
+  {
+    "id": "interior-design-architecture",
+    "name": "برنامج الهندسة المعمارية – فرعي تصميم داخلي",
+    "faculty": "كلية الهندسة",
+    "track": [
+      "علمي",
+      "صناعي"
+    ],
+    "duration": "5 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 28
+      }
+    ],
+    "skillsNeeded": [
+      "حس فني وذوق تصميمي",
+      "مهارة رسم ونمذجة",
+      "إبداع بالتصميم المكاني"
+    ],
+    "skillsToLearnNow": [
+      "تجربة برامج تصميم داخلي مجانية",
+      "بناء ملف أعمال بسيط (بورتفوليو)"
+    ],
+    "careers": [
+      "مصمم داخلي مستقل",
+      "مصمم داخلي بمكتب هندسي"
+    ],
+    "relatedMajors": [
+      "architecture-engineering"
+    ]
+  },
+  {
+    "id": "building-technology-architecture",
+    "name": "برنامج الهندسة المعمارية – فرعي تكنولوجيا المباني",
+    "faculty": "كلية الهندسة",
+    "track": [
+      "علمي",
+      "صناعي"
+    ],
+    "duration": "5 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 80,
+        "competitiveGpa": 80,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 28
+      }
+    ],
+    "skillsNeeded": [
+      "حس هندسي وفني",
+      "فهم لمواد وأنظمة البناء الحديثة",
+      "دقة تقنية"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن مواد بناء صديقة للبيئة وموفرة للطاقة",
+      "تجربة برامج نمذجة معمارية مجانية"
+    ],
+    "careers": [
+      "مهندس تكنولوجيا مباني",
+      "مستشار كفاءة طاقة بالمباني"
+    ],
+    "relatedMajors": [
+      "architecture-engineering",
+      "environmental-engineering"
+    ]
+  },
+  {
+    "id": "sharia-fatwa-arbitration",
+    "name": "الشريعة الإسلامية – فرعي فتوى وتحكيم",
+    "faculty": "كلية الشريعة والقانون",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 15
+      }
+    ],
+    "skillsNeeded": [
+      "حفظ وفهم عميق للأحكام الشرعية",
+      "تفكير تحليلي بالنوازل الفقهية",
+      "أمانة والتزام أخلاقي"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أصول الفتوى والتحكيم",
+      "حفظ أجزاء من القرآن الكريم"
+    ],
+    "careers": [
+      "مفتٍ أو مستشار شرعي",
+      "محكّم بنزاعات شرعية"
+    ],
+    "relatedMajors": [
+      "islamic-sharia",
+      "sharia-and-law"
+    ]
+  },
+  {
+    "id": "optometry",
+    "name": "برنامج البصريات",
+    "faculty": "كلية العلوم الصحية",
+    "track": [
+      "علمي"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
+      }
+    ],
+    "skillsNeeded": [
+      "دقة بالفحص والقياس",
+      "مهارة تواصل مع المرضى",
+      "فهم علمي بالبصريات"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الفيزياء (بصريات) بالتوجيهي",
+      "قراءة عن عيوب الإبصار الشائعة"
+    ],
+    "careers": [
+      "أخصائي بصريات بمركز نظارات",
+      "فني بصريات بعيادة عيون"
+    ],
+    "relatedMajors": [
+      "physical-therapy"
+    ]
+  },
+  {
+    "id": "medical-imaging",
+    "name": "برنامج تقنيات التصوير الطبي",
+    "faculty": "كلية العلوم الصحية",
+    "track": [
+      "علمي"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 70,
+        "competitiveGpa": 70,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
+      }
+    ],
+    "skillsNeeded": [
+      "دقة تقنية عالية",
+      "فهم لتشريح جسم الإنسان",
+      "قدرة على العمل بأجهزة تصوير متقدمة"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة الأحياء والفيزياء بالتوجيهي",
+      "قراءة عن أنواع التصوير الطبي (أشعة، رنين، سونار)"
+    ],
+    "careers": [
+      "فني أشعة بمستشفى",
+      "فني تصوير طبي بمركز تشخيصي"
+    ],
+    "relatedMajors": [
+      "medical-lab-sciences"
+    ]
+  },
+  {
+    "id": "dawah-media",
+    "name": "برنامج الدعوة والإعلام",
+    "faculty": "كلية أصول الدين",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 15
+      }
+    ],
+    "skillsNeeded": [
+      "مهارة إلقاء وخطابة",
+      "حفظ وفهم للنصوص الدينية",
+      "مهارة كتابة وصياغة محتوى"
+    ],
+    "skillsToLearnNow": [
+      "حفظ أجزاء من القرآن الكريم",
+      "تجربة إنشاء محتوى ديني بسيط"
+    ],
+    "careers": [
+      "داعية أو خطيب",
+      "معد محتوى بقناة أو مؤسسة دعوية"
+    ],
+    "relatedMajors": [
+      "usul-al-din"
+    ]
+  },
+  {
+    "id": "journalism-media-azhar",
+    "name": "الصحافة والإعلام/صحافة",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "مهارة كتابة صحفية",
+      "فضول وحس تحقيقي بالأخبار",
+      "قدرة على العمل تحت ضغط الوقت"
+    ],
+    "skillsToLearnNow": [
+      "كتابة مقالات ومنشورات إخبارية بسيطة",
+      "متابعة مصادر إخبارية موثوقة"
+    ],
+    "careers": [
+      "صحفي بمؤسسة إعلامية",
+      "محرر أخبار"
+    ],
+    "relatedMajors": [
+      "journalism",
+      "digital-media"
+    ]
+  },
+  {
+    "id": "history-archaeology",
+    "name": "برنامج التاريخ والآثار",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "فضول معرفي وحب البحث التاريخي",
+      "دقة بالتوثيق والتحليل",
+      "صبر بالعمل الميداني"
+    ],
+    "skillsToLearnNow": [
+      "زيارة مواقع أثرية أو متاحف محلية",
+      "قراءة عن تاريخ فلسطين القديم"
+    ],
+    "careers": [
+      "باحث أو مرشد أثري",
+      "موظف بمتحف أو مؤسسة تراثية"
+    ],
+    "relatedMajors": [
+      "history"
+    ]
+  },
+  {
+    "id": "geography-gis",
+    "name": "برنامج الجغرافيا فرعي نظم المعلومات الجغرافية",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "فهم مكاني وتحليلي",
+      "أساسيات تقنية بالخرائط الرقمية",
+      "دقة بالبيانات"
+    ],
+    "skillsToLearnNow": [
+      "تجربة برنامج GIS مجاني بسيط",
+      "قراءة عن استخدامات نظم المعلومات الجغرافية"
+    ],
+    "careers": [
+      "محلل نظم معلومات جغرافية",
+      "مخطط بمؤسسة بلدية أو بيئية"
+    ],
+    "relatedMajors": [
+      "geography"
+    ]
+  },
+  {
+    "id": "social-work",
+    "name": "برنامج الخدمة الاجتماعية",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "تعاطف وقدرة استماع",
+      "مهارة تواصل وحل نزاعات",
+      "صبر بالتعامل مع حالات صعبة"
+    ],
+    "skillsToLearnNow": [
+      "تطوع بمؤسسة مجتمعية أو خيرية",
+      "قراءة عن أساسيات علم الاجتماع"
+    ],
+    "careers": [
+      "أخصائي اجتماعي بمؤسسة أو مدرسة",
+      "منسق برامج مجتمعية بمنظمة"
+    ],
+    "relatedMajors": [
+      "sociology-social-work"
+    ]
+  },
+  {
+    "id": "pr-advertising-azhar",
+    "name": "برنامج الصحافة والإعلام – فرعي العلاقات العامة والإعلان",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "مهارات تواصل وعرض أفكار",
+      "حس تسويقي وإبداعي",
+      "ثقة بالنفس بالتعامل مع الجمهور"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساسيات العلاقات العامة والإعلان",
+      "تمرين مهارات العرض والتقديم"
+    ],
+    "careers": [
+      "موظف علاقات عامة بمؤسسة",
+      "مصمم حملات إعلانية"
+    ],
+    "relatedMajors": [
+      "digital-marketing"
+    ]
+  },
+  {
+    "id": "broadcast-tech",
+    "name": "برنامج الصحافة والإعلام – فرعي تكنولوجيا الإذاعة والتلفزيون",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "حس إعلامي وتقني",
+      "مهارة تحرير صوت وفيديو",
+      "قدرة على العمل بفريق إنتاج"
+    ],
+    "skillsToLearnNow": [
+      "تجربة برنامج مونتاج فيديو مجاني",
+      "مشاهدة دروس إنتاج إذاعي وتلفزيوني أساسية"
+    ],
+    "careers": [
+      "فني إنتاج إذاعي أو تلفزيوني",
+      "معد ومقدم برامج"
+    ],
+    "relatedMajors": [
+      "digital-media",
+      "journalism-media-azhar"
+    ]
+  },
+  {
+    "id": "english-language-azhar",
+    "name": "برنامج اللغة الإنجليزية",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "لغة إنجليزية قوية بأربع المهارات",
+      "حب القراءة والكتابة",
+      "دقة لغوية"
+    ],
+    "skillsToLearnNow": [
+      "قراءة كتب إنجليزية مبسطة",
+      "ممارسة المحادثة عن طريق تطبيقات مجانية"
+    ],
+    "careers": [
+      "مترجم أو محرر لغوي",
+      "معلم لغة إنجليزية بمركز تعليم"
+    ],
+    "relatedMajors": [
+      "english-literature",
+      "english-translation"
+    ]
+  },
+  {
+    "id": "english-translation",
+    "name": "برنامج اللغة الإنجليزية – فرعي الترجمة",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "إتقان لغتين (عربي وإنجليزي)",
+      "دقة لغوية عالية",
+      "سرعة بحث وفهم سياق"
+    ],
+    "skillsToLearnNow": [
+      "ترجمة نصوص قصيرة كتمرين ذاتي",
+      "متابعة قنوات تعليم ترجمة مجانية"
+    ],
+    "careers": [
+      "مترجم مستقل (فريلانس)",
+      "مترجم بمؤسسة أو مكتب ترجمة"
+    ],
+    "relatedMajors": [
+      "english-language-azhar"
+    ]
+  },
+  {
+    "id": "english-journalism",
+    "name": "برنامج اللغة الإنجليزية – فرعي صحافة وإعلام",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "لغة إنجليزية قوية",
+      "مهارة كتابة صحفية بالإنجليزي",
+      "فضول إخباري"
+    ],
+    "skillsToLearnNow": [
+      "كتابة مقالات إنجليزية قصيرة",
+      "متابعة مصادر إخبارية إنجليزية موثوقة"
+    ],
+    "careers": [
+      "صحفي بمؤسسة إعلامية دولية",
+      "محرر محتوى إنجليزي"
+    ],
+    "relatedMajors": [
+      "english-language-azhar",
+      "journalism-media-azhar"
+    ]
+  },
+  {
+    "id": "arabic-language-azhar",
+    "name": "برنامج اللغة العربية",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "إتقان قواعد اللغة العربية",
+      "حب القراءة والكتابة",
+      "دقة لغوية"
+    ],
+    "skillsToLearnNow": [
+      "قراءة كتب أدبية عربية",
+      "مراجعة قواعد النحو والصرف"
+    ],
+    "careers": [
+      "محرر لغوي",
+      "معلم لغة عربية بمركز تعليم"
+    ],
+    "relatedMajors": [
+      "arabic-literature",
+      "arabic-proofreading"
+    ]
+  },
+  {
+    "id": "arabic-proofreading",
+    "name": "برنامج اللغة العربية – فرعي التدقيق اللغوي",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "دقة لغوية عالية جداً",
+      "معرفة قواعدية عميقة",
+      "صبر بمراجعة نصوص طويلة"
+    ],
+    "skillsToLearnNow": [
+      "تدقيق نصوص كتمرين ذاتي",
+      "مراجعة قواعد النحو والإملاء بعمق"
+    ],
+    "careers": [
+      "مدقق لغوي بدار نشر أو مؤسسة إعلامية",
+      "محرر نصوص مستقل"
+    ],
+    "relatedMajors": [
+      "arabic-language-azhar"
+    ]
+  },
+  {
+    "id": "arabic-journalism",
+    "name": "برنامج اللغة العربية – فرعي الصحافة",
+    "faculty": "كلية الآداب",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "مهارة كتابة صحفية بالعربي",
+      "فضول إخباري",
+      "دقة لغوية"
+    ],
+    "skillsToLearnNow": [
+      "كتابة مقالات عربية قصيرة",
+      "متابعة مصادر إخبارية عربية موثوقة"
+    ],
+    "careers": [
+      "صحفي بمؤسسة إعلامية",
+      "محرر محتوى عربي"
+    ],
+    "relatedMajors": [
+      "arabic-language-azhar",
+      "journalism-media-azhar"
+    ]
+  },
+  {
+    "id": "accounting-it-track",
+    "name": "المحاسبة فرعي تكنولوجيا المعلومات",
+    "faculty": "كلية الاقتصاد والعلوم الإدارية",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
+      }
+    ],
+    "skillsNeeded": [
+      "دقة بالتعامل مع الأرقام",
+      "أساسيات تقنية ببرامج المحاسبة",
+      "فهم أساسي بأنظمة المعلومات"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات Excel وبرامج محاسبة بسيطة",
+      "قراءة عن أنظمة المعلومات المحاسبية"
+    ],
+    "careers": [
+      "محاسب أنظمة معلومات بشركة",
+      "محلل مالي مبتدئ"
+    ],
+    "relatedMajors": [
+      "accounting",
+      "management-information-systems"
+    ]
+  },
+  {
+    "id": "business-administration-english-azhar",
+    "name": "برنامج إدارة الأعمال (باللغة الإنجليزية)",
+    "faculty": "كلية الاقتصاد والعلوم الإدارية",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
+      }
+    ],
+    "skillsNeeded": [
+      "لغة إنجليزية قوية بالمصطلحات الإدارية",
+      "تنظيم وإدارة وقت",
+      "مهارات تواصل وعرض أفكار"
+    ],
+    "skillsToLearnNow": [
+      "تقوية اللغة الإنجليزية الأكاديمية",
+      "تعلم أساسيات Excel"
+    ],
+    "careers": [
+      "موظف موارد بشرية بشركة دولية",
+      "ريادة أعمال ومشروع خاص"
+    ],
+    "relatedMajors": [
+      "business-administration"
+    ]
+  },
+  {
+    "id": "business-entrepreneurship-azhar",
+    "name": "برنامج إدارة الأعمال / الريادة والابتكار",
+    "faculty": "كلية الاقتصاد والعلوم الإدارية",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "إبداع وتفكير ريادي",
+      "مهارات تواصل وعرض أفكار",
+      "قدرة على تحمل المخاطرة المحسوبة"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن نماذج أعمال ناشئة (Startups)",
+      "تجربة بناء فكرة مشروع بسيطة"
+    ],
+    "careers": [
+      "رائد أعمال بمشروعه الخاص",
+      "موظف بحاضنة أو مسرعة أعمال"
+    ],
+    "relatedMajors": [
+      "business-administration"
+    ]
+  },
+  {
+    "id": "economics-azhar",
+    "name": "برنامج الاقتصاد",
+    "faculty": "كلية الاقتصاد والعلوم الإدارية",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "تفكير تحليلي رقمي",
+      "فهم للأسواق والسياسات الاقتصادية",
+      "مهارة قراءة بيانات وتقارير"
+    ],
+    "skillsToLearnNow": [
+      "متابعة أخبار اقتصادية موثوقة",
+      "مراجعة أساسيات الرياضيات والإحصاء"
+    ],
+    "careers": [
+      "محلل اقتصادي بمؤسسة أو بنك",
+      "باحث سياسات اقتصادية"
+    ],
+    "relatedMajors": [
+      "economics-political-science",
+      "digital-economy-fintech"
+    ]
+  },
+  {
+    "id": "marketing-ecommerce",
+    "name": "برنامج التسويق والتجارة الإلكترونية",
+    "faculty": "كلية الاقتصاد والعلوم الإدارية",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
+      }
+    ],
+    "skillsNeeded": [
+      "حس تسويقي وإبداعي",
+      "أساسيات تقنية بالتجارة الإلكترونية",
+      "مهارة تحليل بيانات بسيطة"
+    ],
+    "skillsToLearnNow": [
+      "دورة مجانية بأساسيات التسويق الرقمي (Google Digital Garage)",
+      "تجربة إنشاء متجر إلكتروني بسيط"
+    ],
+    "careers": [
+      "مسؤول تسويق رقمي بشركة",
+      "صاحب متجر إلكتروني"
+    ],
+    "relatedMajors": [
+      "digital-marketing"
+    ]
+  },
+  {
+    "id": "political-science-media",
+    "name": "برنامج العلوم السياسية والإعلام",
+    "faculty": "كلية الاقتصاد والعلوم الإدارية",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
+      }
+    ],
+    "skillsNeeded": [
+      "فهم تحليلي للأحداث السياسية",
+      "مهارة كتابة وتحليل",
+      "مهارة تواصل إعلامي"
+    ],
+    "skillsToLearnNow": [
+      "متابعة أخبار سياسية موثوقة",
+      "تمرين كتابة تحليل سياسي بسيط"
+    ],
+    "careers": [
+      "محلل سياسي بمؤسسة إعلامية",
+      "معد محتوى سياسي"
+    ],
+    "relatedMajors": [
+      "economics-political-science",
+      "journalism-media-azhar"
+    ]
+  },
+  {
+    "id": "financial-banking-sciences",
+    "name": "برنامج العلوم المالية والمصرفية",
+    "faculty": "كلية الاقتصاد والعلوم الإدارية",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "دقة بالتعامل مع الأرقام",
+      "فهم للأسواق المالية والمصرفية",
+      "تفكير تحليلي بالمخاطر"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساسيات الأسواق المالية والمصرفية",
+      "تعلم أساسيات Excel"
+    ],
+    "careers": [
+      "موظف بنك",
+      "محلل مالي بمؤسسة"
+    ],
+    "relatedMajors": [
+      "accounting",
+      "economics-azhar"
+    ]
+  },
+  {
+    "id": "accounting-english-azhar",
+    "name": "برنامج المحاسبة (باللغة الإنجليزية)",
+    "faculty": "كلية الاقتصاد والعلوم الإدارية",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 25
+      }
+    ],
+    "skillsNeeded": [
+      "لغة إنجليزية قوية بالمصطلحات المحاسبية",
+      "دقة بالتعامل مع الأرقام",
+      "أمانة ومسؤولية مالية"
+    ],
+    "skillsToLearnNow": [
+      "تقوية اللغة الإنجليزية الأكاديمية",
+      "تعلم أساسيات Excel وبرامج محاسبة بسيطة"
+    ],
+    "careers": [
+      "محاسب بشركة دولية",
+      "مدقق حسابات"
+    ],
+    "relatedMajors": [
+      "accounting"
+    ]
+  },
+  {
+    "id": "psychological-counseling-guidance-azhar",
+    "name": "برنامج الإرشاد النفسي والتوجيه التربوي",
+    "faculty": "كلية التربية",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
+    ],
+    "skillsNeeded": [
+      "تعاطف وقدرة استماع",
+      "مهارة تحليل سلوكي",
+      "صبر وحكمة بالتعامل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "قراءة عن أساسيات علم النفس التربوي",
+      "تطوع بمركز إرشاد أو مدرسة"
+    ],
+    "careers": [
+      "مرشد نفسي بمدرسة",
+      "أخصائي توجيه تربوي"
+    ],
+    "relatedMajors": [
+      "psychological-counseling",
+      "educational-guidance"
+    ]
+  },
+  {
+    "id": "islamic-education-teaching",
+    "name": "برنامج تعليم التربية الإسلامية",
+    "faculty": "كلية التربية",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "حفظ وفهم للنصوص الدينية",
+      "صبر وحب التعليم",
+      "مهارة تواصل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "حفظ أجزاء من القرآن الكريم",
+      "قراءة عن أساليب تدريس التربية الإسلامية"
+    ],
+    "careers": [
+      "معلم/ة تربية إسلامية",
+      "مرشد ديني بمدرسة"
+    ],
+    "relatedMajors": [
+      "islamic-studies-education"
+    ]
+  },
+  {
+    "id": "arabic-teaching",
+    "name": "برنامج تعليم اللغة العربية",
+    "faculty": "كلية التربية",
+    "track": [
+      "جميع الفروع"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 18
+      }
+    ],
+    "skillsNeeded": [
+      "إتقان قواعد اللغة العربية",
+      "صبر وحب التعليم",
+      "مهارة تواصل مع الطلاب"
+    ],
+    "skillsToLearnNow": [
+      "مراجعة قواعد النحو والصرف",
+      "قراءة عن أساليب تدريس اللغة العربية"
+    ],
+    "careers": [
+      "معلم/ة لغة عربية",
+      "مصمم مناهج لغوية"
+    ],
+    "relatedMajors": [
+      "arabic-education",
+      "arabic-language-azhar"
+    ]
+  },
+  {
+    "id": "math-computer-track",
+    "name": "برنامج الرياضيات / فرعي كمبيوتر",
+    "faculty": "كلية العلوم",
+    "track": [
+      "علمي",
+      "صناعي",
+      "زراعي"
+    ],
+    "duration": "4 سنوات",
+    "admission": [
+      {
+        "university": "جامعة الأزهر",
+        "minGpa": 65,
+        "competitiveGpa": 65,
+        "year": 2026,
+        "verified": true,
+        "feePerCreditHour": 20
+      }
+    ],
+    "skillsNeeded": [
+      "أساس رياضي قوي جداً",
+      "تفكير منطقي وخوارزمي",
+      "قدرة على البرمجة الأساسية"
+    ],
+    "skillsToLearnNow": [
+      "تعلم أساسيات لغة برمجة (Python)",
+      "حل تمارين رياضيات متقدمة"
+    ],
+    "careers": [
+      "محلل بيانات",
+      "مبرمج علمي (Scientific Computing)"
+    ],
+    "relatedMajors": [
+      "mathematics",
+      "computer-science"
     ]
   }
 ]

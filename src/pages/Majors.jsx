@@ -1,48 +1,76 @@
 import { useMemo, useState } from 'react';
+import CompareBar from '../components/CompareBar.jsx';
 import MajorCard from '../components/MajorCard.jsx';
+import Reveal from '../components/Reveal.jsx';
+import SectionHeader from '../components/SectionHeader.jsx';
 import majors from '../data/majors.json';
-import { filterMajors, getTracks } from '../utils/majors.js';
+import { filterMajors, getTracks, sortMajors } from '../utils/majors.js';
+
+const SORT_OPTIONS = [
+  { value: 'gpa-desc', label: 'حسب معدل القبول (الأعلى أولاً)' },
+  { value: 'gpa-asc', label: 'حسب معدل القبول (الأقل أولاً)' },
+  { value: 'alpha', label: 'أبجدي (أ - ي)' },
+  { value: 'duration', label: 'مدة الدراسة (الأقصر أولاً)' },
+];
 
 function Majors() {
   const [search, setSearch] = useState('');
   const [track, setTrack] = useState('');
+  const [sortKey, setSortKey] = useState('gpa-desc');
 
   const tracks = useMemo(() => getTracks(majors), []);
-  const filtered = useMemo(
-    () => filterMajors(majors, { search, track }),
-    [search, track],
-  );
+  const filtered = useMemo(() => {
+    const matched = filterMajors(majors, { search, track });
+    return sortMajors(matched, sortKey);
+  }, [search, track, sortKey]);
+
+  function resetFilters() {
+    setSearch('');
+    setTrack('');
+  }
 
   return (
-    <section className="px-6 py-16">
-      <div className="mx-auto w-full max-w-6xl">
-        <div className="mx-auto mb-10 max-w-xl text-center">
-          <span className="mb-4 inline-block rounded-full bg-amber-100 px-3.5 py-1.5 text-sm font-bold text-amber-700">
-            التخصصات
-          </span>
-          <h2 className="mb-3 text-3xl font-bold text-blue-950">دور على تخصصك الجامعي</h2>
-          <p className="text-[17px] text-stone-600">
-            ابحث بالاسم أو فلتر حسب الفرع عشان توصل للتخصص المناسب إلك.
-          </p>
-        </div>
+    <>
+      <section className="px-6 py-16">
+        <div className="mx-auto w-full max-w-6xl">
+          <Reveal>
+            <SectionHeader
+              eyebrow="التخصصات"
+              title="دور على تخصصك الجامعي"
+              description="ابحث بالاسم أو فلتر حسب الفرع عشان توصل للتخصص المناسب إلك."
+            />
+          </Reveal>
 
-        <div className="mb-8 flex flex-wrap items-center justify-between gap-4">
-          <input
-            type="search"
-            placeholder="دور باسم التخصص أو الكلية..."
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
-            className="min-w-70 flex-1 rounded-lg border border-stone-200 bg-white px-4.5 py-3 text-blue-950 outline-none focus:border-amber-400"
-          />
+          <div className="mb-5 flex flex-wrap items-center justify-between gap-4">
+            <select
+              value={sortKey}
+              onChange={(event) => setSortKey(event.target.value)}
+              className="rounded-lg border border-border bg-white px-4 py-2.5 text-sm text-ink outline-none focus:border-primary"
+            >
+              {SORT_OPTIONS.map((option) => (
+                <option key={option.value} value={option.value}>
+                  ترتيب النتائج: {option.label}
+                </option>
+              ))}
+            </select>
 
-          <div className="flex flex-wrap gap-2.5">
+            <input
+              type="search"
+              placeholder="دور باسم التخصص أو الكلية..."
+              value={search}
+              onChange={(event) => setSearch(event.target.value)}
+              className="min-w-70 flex-1 rounded-lg border border-border bg-white px-4.5 py-3 text-ink outline-none focus:border-primary"
+            />
+          </div>
+
+          <div className="mb-4 flex flex-wrap gap-2.5">
             <button
               type="button"
               onClick={() => setTrack('')}
               className={`rounded-full border px-4.5 py-2 font-semibold transition ${
                 track === ''
-                  ? 'border-blue-950 bg-blue-950 text-white'
-                  : 'border-stone-200 bg-white text-stone-600 hover:border-amber-400'
+                  ? 'border-primary bg-primary text-white'
+                  : 'border-border bg-white text-ink hover:border-primary'
               }`}
             >
               الكل
@@ -54,29 +82,42 @@ function Majors() {
                 onClick={() => setTrack(item)}
                 className={`rounded-full border px-4.5 py-2 font-semibold transition ${
                   track === item
-                    ? 'border-blue-950 bg-blue-950 text-white'
-                    : 'border-stone-200 bg-white text-stone-600 hover:border-amber-400'
+                    ? 'border-primary bg-primary text-white'
+                    : 'border-border bg-white text-ink hover:border-primary'
                 }`}
               >
                 {item}
               </button>
             ))}
           </div>
-        </div>
 
-        {filtered.length === 0 ? (
-          <p className="py-10 text-center text-stone-500">
-            ما في تخصصات مطابقة لبحثك، جرب كلمة تانية.
-          </p>
-        ) : (
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {filtered.map((major) => (
-              <MajorCard key={major.id} major={major} />
-            ))}
-          </div>
-        )}
-      </div>
-    </section>
+          <p className="mb-8 text-sm text-muted">المعروض: {filtered.length} تخصصات</p>
+
+          {filtered.length === 0 ? (
+            <div className="py-10 text-center">
+              <p className="mb-4 text-muted">ما في تخصصات مطابقة لبحثك، جرب كلمة أو فلاتر مختلفة.</p>
+              <button
+                type="button"
+                onClick={resetFilters}
+                className="rounded-lg border border-border bg-white px-5 py-2.5 font-semibold text-ink hover:border-primary"
+              >
+                إعادة تعيين الفلاتر
+              </button>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {filtered.map((major, index) => (
+                <Reveal key={major.id} delay={Math.min(index * 60, 300)} className="h-full">
+                  <MajorCard major={major} showCompareToggle />
+                </Reveal>
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
+
+      <CompareBar />
+    </>
   );
 }
 

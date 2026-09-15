@@ -91,7 +91,7 @@ function Header() {
         isScrolled ? 'shadow-sm' : ''
       }`}
     >
-      <div className="relative mx-auto flex w-full max-w-6xl items-start gap-2 px-4 py-3 sm:gap-4 sm:px-6">
+      <div className="relative mx-auto flex w-full max-w-6xl items-center gap-2 px-4 py-3 sm:gap-4 sm:px-6">
         <NavLink to="/" className="shrink-0">
           <img src={logo} alt="ابدأها صح" className="h-7 w-auto object-contain sm:h-8" />
         </NavLink>
@@ -171,7 +171,7 @@ function Header() {
         </div>
 
         <div className="flex flex-1 items-center justify-end gap-4">
-          <nav className="hidden items-center gap-5 md:flex">
+          <nav className="mt-1 hidden items-center gap-5 md:flex">
             <NavLinks />
           </nav>
 

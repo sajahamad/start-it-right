@@ -115,63 +115,63 @@ function Header() {
             placeholder="دور عن تخصص أو جامعة..."
             className="w-20 rounded-lg border border-border px-3 py-2 text-sm text-ink outline-none transition-colors hover:border-primary focus:border-primary sm:w-36 md:w-56"
           />
-
-          {trimmedQuery && (
-            <div className="absolute right-0 top-full z-30 mt-2 w-80 rounded-2xl border border-border bg-white p-4 shadow-lg sm:w-96">
-              {!hasResults ? (
-                <div className="py-6 text-center">
-                  <p className="text-sm text-ink">لا توجد نتائج مطابقة لـ '{trimmedQuery}'</p>
-                  <p className="mt-1 text-xs text-muted">جرّب كلمة أخرى مثل: طب، هندسة، جامعة...</p>
-                </div>
-              ) : (
-                <div className="max-h-80 overflow-y-auto">
-                  {majorResults.length > 0 && (
-                    <div className="mb-3">
-                      <p className="mb-1.5 px-1 text-xs font-bold text-muted">التخصصات</p>
-                      <ul className="flex flex-col gap-1">
-                        {majorResults.map((major) => (
-                          <li key={major.id}>
-                            <Link
-                              to={`/majors/${major.id}`}
-                              onClick={selectResult}
-                              className="block rounded-lg px-3 py-2 hover:bg-surface"
-                            >
-                              <span className="block text-sm font-bold text-ink">{major.name}</span>
-                              <span className="block text-xs text-muted">{major.faculty}</span>
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-
-                  {universityResults.length > 0 && (
-                    <div>
-                      <p className="mb-1.5 px-1 text-xs font-bold text-muted">الجامعات</p>
-                      <ul className="flex flex-col gap-1">
-                        {universityResults.map((university) => (
-                          <li key={university.id}>
-                            <Link
-                              to={`/universities/${university.id}`}
-                              onClick={selectResult}
-                              className="block rounded-lg px-3 py-2 hover:bg-surface"
-                            >
-                              <span className="block text-sm font-bold text-ink">{university.name}</span>
-                              <span className="block text-xs text-muted">{university.majorsCount} تخصص</span>
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-              )}
-            </div>
-          )}
         </div>
 
+        {trimmedQuery && (
+          <div className="absolute inset-x-4 top-full z-30 mt-2 rounded-2xl border border-border bg-white p-4 shadow-lg sm:inset-x-auto sm:right-6 sm:w-80 md:w-96">
+            {!hasResults ? (
+              <div className="py-6 text-center">
+                <p className="text-sm text-ink">لا توجد نتائج مطابقة لـ '{trimmedQuery}'</p>
+                <p className="mt-1 text-xs text-muted">جرّب كلمة أخرى مثل: طب، هندسة، جامعة...</p>
+              </div>
+            ) : (
+              <div className="max-h-80 overflow-y-auto">
+                {majorResults.length > 0 && (
+                  <div className="mb-3">
+                    <p className="mb-1.5 px-1 text-xs font-bold text-muted">التخصصات</p>
+                    <ul className="flex flex-col gap-1">
+                      {majorResults.map((major) => (
+                        <li key={major.id}>
+                          <Link
+                            to={`/majors/${major.id}`}
+                            onClick={selectResult}
+                            className="block rounded-lg px-3 py-2 hover:bg-surface"
+                          >
+                            <span className="block text-sm font-bold text-ink">{major.name}</span>
+                            <span className="block text-xs text-muted">{major.faculty}</span>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                {universityResults.length > 0 && (
+                  <div>
+                    <p className="mb-1.5 px-1 text-xs font-bold text-muted">الجامعات</p>
+                    <ul className="flex flex-col gap-1">
+                      {universityResults.map((university) => (
+                        <li key={university.id}>
+                          <Link
+                            to={`/universities/${university.id}`}
+                            onClick={selectResult}
+                            className="block rounded-lg px-3 py-2 hover:bg-surface"
+                          >
+                            <span className="block text-sm font-bold text-ink">{university.name}</span>
+                            <span className="block text-xs text-muted">{university.majorsCount} تخصص</span>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
         <div className="flex flex-1 items-center justify-end gap-4">
-          <nav className="mt-1 hidden items-center gap-5 md:flex">
+          <nav className="mt-1 hidden items-center gap-5 lg:flex">
             <NavLinks />
           </nav>
 
@@ -179,7 +179,7 @@ function Header() {
             type="button"
             onClick={() => setIsMenuOpen((open) => !open)}
             aria-label={isMenuOpen ? 'إغلاق القائمة' : 'فتح القائمة'}
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-border bg-white sm:h-9 sm:w-9 md:hidden"
+            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-border bg-white sm:h-9 sm:w-9 lg:hidden"
           >
             {isMenuOpen ? (
               <X className="h-4 w-4 sm:h-4.5 sm:w-4.5" strokeWidth={2} aria-hidden="true" />
@@ -190,7 +190,7 @@ function Header() {
         </div>
 
         {isMenuOpen && (
-          <nav className="absolute inset-x-0 top-full z-20 flex flex-col items-center gap-4 border-b border-border bg-white px-4 py-5 shadow-md md:hidden">
+          <nav className="absolute inset-x-0 top-full z-20 flex flex-col items-center gap-4 border-b border-border bg-white px-4 py-5 shadow-md lg:hidden">
             <NavLinks onLinkClick={() => setIsMenuOpen(false)} />
           </nav>
         )}

@@ -41,11 +41,11 @@ function Majors() {
             />
           </Reveal>
 
-          <div className="mb-5 flex flex-wrap items-center justify-between gap-4">
+          <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
             <select
               value={sortKey}
               onChange={(event) => setSortKey(event.target.value)}
-              className="rounded-lg border border-border bg-white px-4 py-2.5 text-sm text-ink outline-none focus:border-primary"
+              className="w-full rounded-lg border border-border bg-white px-4 py-2.5 text-sm text-ink outline-none focus:border-primary sm:w-auto"
             >
               {SORT_OPTIONS.map((option) => (
                 <option key={option.value} value={option.value}>
@@ -59,7 +59,7 @@ function Majors() {
               placeholder="دور باسم التخصص أو الكلية..."
               value={search}
               onChange={(event) => setSearch(event.target.value)}
-              className="min-w-70 flex-1 rounded-lg border border-border bg-white px-4.5 py-3 text-ink outline-none focus:border-primary"
+              className="w-full rounded-lg border border-border bg-white px-4.5 py-3 text-ink outline-none focus:border-primary sm:min-w-70 sm:flex-1"
             />
           </div>
 

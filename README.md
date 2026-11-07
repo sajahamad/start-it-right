@@ -11,6 +11,10 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
 </p>
 
+<p align="center">
+  <img src="./screenshots/01-home-stats.png" alt="Start It Right home page" width="900"/>
+</p>
+
 ---
 
 ## The problem
@@ -19,7 +23,7 @@ Every year, thousands of students in Palestine finish Tawjihi and have to pick a
 
 ## The solution
 
-**Start It Right** puts that information in one place, in Arabic, in a format students can compare side by side. It currently covers **92 majors across 4 universities** in Gaza.
+**Start It Right** puts that information in one place, in Arabic, in a format students can compare side by side. It currently covers **135+ majors across 4 universities** in Gaza.
 
 The project grew out of **«ابدأها صح»**, my content series that has helped **30,000+ students** with study skills, time management and choosing their path.
 
@@ -32,6 +36,14 @@ The project grew out of **«ابدأها صح»**, my content series that has he
 - 🧭 **First-year guide & FAQ** — practical advice for starting university the right way
 - 🔗 **Resources** — curated links to help students prepare
 - 🇵🇸 **Arabic, fully RTL**, written in simple Palestinian dialect, and responsive on phones
+
+## Screenshots
+
+| Majors | Universities |
+|---|---|
+| <img src="./screenshots/02-majors.png" alt="Majors"/> | <img src="./screenshots/03-universities.png" alt="Universities"/> |
+| **Compare majors** | **First-year guide** |
+| <img src="./screenshots/04-compare.png" alt="Compare majors"/> | <img src="./screenshots/05-guide.png" alt="First-year guide"/> |
 
 ## Tech stack
 
@@ -71,9 +83,9 @@ npm run dev
 
 ## Author
 
-**Saja Hamed** — Frontend Developer · Computer Systems Engineering, Al-Azhar University – Gaza
+**Saja Hamed Abu Mandeel** — Frontend Developer · Computer Systems Engineering, Al-Azhar University – Gaza
 
-[Portfolio](https://saja-hamed-portfolio.vercel.app) · [GitHub](https://github.com/sajahamad) · [Instagram](https://www.instagram.com/saja._hamed)
+[Portfolio](https://saja-hamed-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/saja-hamad-dev/) · [GitHub](https://github.com/sajahamad) · [Instagram](https://www.instagram.com/saja._hamed)
 
 ---
 
